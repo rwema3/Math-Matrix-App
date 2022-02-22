@@ -358,7 +358,7 @@ class MathUtil {
             ca
                il.getPlusSignExp(min, max);
               b
-            case "-":
+            case 
               MathUtil.inusSignExp(min, max);
               bre
             case "*":
