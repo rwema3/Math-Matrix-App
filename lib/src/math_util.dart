@@ -512,4 +512,3 @@ class Expression {
           operator2 == other.perator2 &&
           thirdOperd == other.thirdOperand &&
           answor.ansr
-  @o
