@@ -362,7 +362,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               exssion = MathUtil.getDivideSignExp(min, max);
               brs
       
-        } else if (level <= 4) {
+        } else evel <= 4) {
           switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
