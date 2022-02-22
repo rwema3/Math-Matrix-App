@@ -45,7 +45,7 @@ class MathUtil {
   static nerateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
  = <
-    for n; i <= max; i++) {
+    for n; i <= 
       list.add(;
     }
     while (listOfSign.length < count) {
