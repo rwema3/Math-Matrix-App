@@ -361,6 +361,6 @@ pression = MathUtil.getMultiplySignExp(1, 1
     $tor2, thirdOperand: $thirdOperand, answer
           T&&
           == r.frand 
-          seconand  &
+          seconand
           opero == oth.perator2 &&
           thirdOperd= other.thirdOpera
