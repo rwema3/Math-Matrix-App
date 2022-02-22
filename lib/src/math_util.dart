@@ -356,8 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               n = l.getDivideSignExp(1, 
           }
         } else {
-          switch  {
-            
+          swit
               expression = MathUtil.getPlusSignExp(min, max);
               brea
             case "-":
