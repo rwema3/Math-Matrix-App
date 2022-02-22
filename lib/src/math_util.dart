@@ -361,7 +361,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expionathUtil.getMixExp(1, 15);
               break;
             c
-              MathUtil.getDivideSignExp(min, max);
+DivideSignExp(min, max);
               break;
           }
         } else if (level < 5) {
