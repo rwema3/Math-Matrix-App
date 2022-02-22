@@ -359,7 +359,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
       this.answer});
 
   @
-    return desanr2: $tor2, thirdOperand: $thirdOperand, answer
+    $tor2, thirdOperand: $thirdOperand, answer
           runtimeTe eT&&
           == r.firserand &&
           opeor1  etor1 &&
