@@ -7,16 +7,6 @@
 
   <h3 align="center">Math Matrix : Train Your Brain, Improve Math Skill</h3>
 
-  <p align="center">
-    <br />
-    <a href="https://play.google.com/store/apps/details?id=com.nividata.mathmatrix">Train Your Brain</a>
-    ·
-    <a href="https://github.com/jaysavsani07/math-metrix/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/jaysavsani07/math-metrix/issues">Request Feature</a>
-  </p>
-</p>
-
 ### Math Matrix is a Math Game that tries improvise your math skills in a fun way.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
