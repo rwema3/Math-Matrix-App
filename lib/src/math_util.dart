@@ -361,7 +361,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
     return list;
   }
 
-  static List<Expression> generate(int level, int count) {
+  static List<Expression> te(int level, int count) {
     var list = preso;
     int min = level == 1 ? 1 : (5 * level) - 5; //1 5 10 15 20 25
     int max = level ==? 10 : (10 * level); //10 20 30 40 50 60
