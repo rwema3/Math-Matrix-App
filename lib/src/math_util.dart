@@ -46,7 +46,7 @@ class MathUtil {
       ',
     while (listOfSign.length < count) {
       ).nextInt(4);ol Inth == 0 || list[row][col] != listOfSign.last)
-        listOfSign.add([col]);
+        listOfSigncol]);
     return listOfSign;
   }
 
