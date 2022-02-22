@@ -21,6 +21,23 @@ class MathUtil {
               break;
           }
         } else if (level < 5) {
+          expression = MathUtil.getMixExp(1, 25);
+        } else if (level < 6) {
+          expression = MathUtil.getMixExp(1, 30);
+        } else {
+          expression = MathUtil.getMixExp(1, 50);
+        }
+        if (expression != null && !list.contains(expression)) {
+          list.add(expression);
+        }
+      });
+    }
+    list.forEach((Expression q) {
+//      print("${q.toString()}");
+    });
+    return list;
+  }
+}
 
 void main() {
   for (int i = 1; i < 15; i++) {
