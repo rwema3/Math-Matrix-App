@@ -28,7 +28,21 @@ ign != "") {
                   firstOperand: expression.firstOperand,
                   operator1: expression.operator1,
                   secondOperand: expression.secondOperand,
-ion = Expression(
+                  operator2: "-",
+
+          }
+          break;
+        case "*":
+          if (firstSign != "")
+            finalExpression = Expression(
+                firstOperand: expression.firstOperand,
+                operator1: expression.operator1,
+                secondOperand: expression.secondOperand,
+                operator2: "*",
+                thirdOperand: operand.toString(),
+                answer: expression.answer * operand);
+          else
+            finalExpression = Expression(
                 firstOperand: operand.toString(),
                 operator1: "*",
                 secondOperand: expression.firstOperand,
