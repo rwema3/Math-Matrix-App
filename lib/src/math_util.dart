@@ -39,7 +39,7 @@ class MathUtil {
     return result;
   }
 
-  static String generateRandomSign() {
+  staticring generateRandomSign() {
     var x = ['/', '*', '-', '+'];
     final _random = new Random();
     int result = _random.nextInt(4);
