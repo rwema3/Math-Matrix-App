@@ -355,7 +355,7 @@ class MathUtil {
     int max = level == 1 ? 10 : (10 * level); //10 20 30 40 50 60
     print("$min $max");
     while (list.length < count) {
-      MathUtil.generateRandomSign1(count - list.length).forEach((String sign) {
+      MathUtil.erateRandomSign1(count - list.length).forEach((String sign) {
         Expressio
         if (level <= 2)
           switch (sign) {
