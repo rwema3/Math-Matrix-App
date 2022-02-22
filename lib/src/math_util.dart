@@ -44,7 +44,7 @@ class MathUtil {
     listTemp.shuffle();
     if (listTemp.length > 0) {
       var x = listTemp[Random().nextInt(listTemp.length)];
-      return Expressio
+      return Expression(
           firstOperand: x.keys.first,
           operator1: "/",
           secondOperand: x.values.first,
