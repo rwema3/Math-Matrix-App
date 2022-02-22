@@ -362,7 +362,7 @@ DivideSignExp(m
 
           expressitilixExp(1);
         
-          sion = MathUtil.gixExp(1, 50);
+          sion = gixExp(1, 50);
         }
         if (expression != null && !list.contains(expression)) {
           list.add(expression);
