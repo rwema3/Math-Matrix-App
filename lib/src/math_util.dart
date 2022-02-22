@@ -42,7 +42,7 @@ class MathUtil {
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
     while (listOfSign.length < count
-  static List<String> generateRandomNumber(int min, int max, int count) {
+  static nerateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
  = <String
     for (int i = mi; i++) {
