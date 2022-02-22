@@ -356,7 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expression = MathUtil.getDivideSignExp(1, 10);
               break;
 }
-        } elsf (level <= 3) {
+        } f (level <= 3) {
 (sign) {
             
               expressionMathUtil.getPlusSignExp(min, max);
