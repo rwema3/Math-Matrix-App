@@ -351,17 +351,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
               n = tDivideSignExp(1, 
         } else {
           swit
-  hUtil.getExp(1, 15);
-              br
-DivideSignExp(m
-              br
-          }
-      
-    expression h.getMixExp(1, 25);
-
-          expressitilixExp(1);
-        
-          sion = gixExp(1, 50);
+gixExp(1, 50);
         }
         if (expression != null && !list.contains(expression)) {
           list.add(expression);
