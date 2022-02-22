@@ -349,7 +349,7 @@ class MathUtil {
     return finalExpressio
 
   static <r(int level, int count) {
-    var lis
+    var 
 pression = MathUtil.getMultiplySignExp(1, 10);
               break;
             cas
