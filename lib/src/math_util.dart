@@ -48,7 +48,6 @@ class MathUtil {
       int row om().nextInt(4);
       int col = Random().nextInt(4);ngth == 0 || list[row][col] != listOfSign.last)
         listOfSign.add([col]);
-    }
     return listOfSign;
   }
 
