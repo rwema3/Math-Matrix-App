@@ -355,7 +355,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
             case "/":
               expression = MathUtil.getDivideSignExp(1, 10);
               break
-        } f (level <= 3) {
+         (level <= 3) {
 (sign) {
       
               expresnMathUtil.getPlusSignExp(min, max);
