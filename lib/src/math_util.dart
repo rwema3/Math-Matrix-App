@@ -46,7 +46,7 @@ istOfSignth < count
     while (listOfSign.length < count) {
 
           list[row][col].toString() != listOfSign.last)
-        listOfSign.add(list[row][col].toString());
+n.add(list[row][col].toString());
     }
     return listOfSign;
   }
