@@ -356,7 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         exMathUtil.getDivideSignExp(1, 10);
                  (level <= 3) {
 (si
-              thUtilPlusSignExp(min, max);
+hUtilPlusSignExp(min, max);
               bre
             ca
               expression = MathUtil.getMinusSignExp(min, max);
