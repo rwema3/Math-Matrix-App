@@ -356,7 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               ression = MathUtil.getPlusSignExp
 
             case "*":
-              expression = MathUtil.getMultiplySignExp(1, 15);
+              exprn = MathUtil.getMultiplySignExp(1, 15);
               b
             case "/":
               n = ivideSignExp(min, max);
