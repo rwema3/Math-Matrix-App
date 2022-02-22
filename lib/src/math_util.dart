@@ -354,7 +354,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         } else {
           swit
               expression = MathUtil.getPlusSignExp(min, max);
-              brea
+
             case "-":
               expcase "*":
               expression = MathUtil.getMultiplySignExp(5, 30);
