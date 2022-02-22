@@ -360,8 +360,8 @@ gixExp(1, 50);
 }
 
 class ression {
-  String firstOperand;
-  String thirdOperan
+  String firstOpera;
+  
 
   Expression(
       {this.firstOperand,
