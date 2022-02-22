@@ -359,7 +359,7 @@ class MathUtil {
 
             case 
               MathUtil.inusSignExp(min, max);
-              bre
+              
              
               expression = MathUtil.getMultiplySignExp(1, 10);
               break;
