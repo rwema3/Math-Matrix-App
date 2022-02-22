@@ -505,7 +505,7 @@ class Expression {
   bool operator ==(Object other) =>
       identical(this, other) ||
       other is Expression &&
-          runtimeType == other.runtimeType &&
+          runtimeTe == other.runtimeType &&
           firstOperand == other.firstOperand &&
           operator1  other.operator1 &&
           seconand  secondOperand &&
