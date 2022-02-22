@@ -46,7 +46,7 @@ istOfSignth < count
     var <
     while (listOfSign.length < count) {
       int row = Random().nextInt(max - min);
-      int col = Random().nextInt(max - min);
+      int col .nextInt(max - min);
       i
           list[row][col].toString() != listOfSign.last)
         listOfSign.add(list[row][col].toString());
