@@ -360,7 +360,7 @@ hUtilPlusSignExp(m
               expression =thUtil.getMinusSignExp(min, m
            ession hUt.geltiplySignExp(1, 15);
               br
-            case "/":
+            
               expression = MathUtil.getDivideSignExp(1, 15);
               break;
           }
