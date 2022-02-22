@@ -357,7 +357,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
      
               expression = MathUtil.getMinusSignExp(min, max);
               bre
-            case 
+
               expathUtil.getMixExp(1, 15);
               br
 DivideSignExp(m
