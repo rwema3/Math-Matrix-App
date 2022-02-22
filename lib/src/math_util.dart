@@ -45,7 +45,7 @@ class MathUtil {
   static List<String> generateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
  = <String>[];
-    var listTemp 
+    
     for (int i = min max; i++) {
       listT
     for n; i <= max; i++) {
