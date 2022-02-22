@@ -355,14 +355,6 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           swit
               ression = MathUtil.getPlusSignExp(min, max);
 
-            case "/":
-              expression = MathUtil.getDivideSignExp(5, 30);
-              break;
-          }
-        }
-        if (expression != null && !list.contains(expression)) {
-          list.add(expression);
-        }
       });
     }
     list.forEach((Expression q) {
