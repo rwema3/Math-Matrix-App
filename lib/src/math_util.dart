@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
 (si
               thUtilPlusSignExp(min, max);
               bre
-            case 
+            ca
               expression = MathUtil.getMinusSignExp(min, max);
               break;
             case "*":
