@@ -348,7 +348,7 @@ class MathUtil {
     }
     return finalExpressio
 
-  static <r(int level, int count) {
+<r(int level, int count) {
 
 pression = MathUtil.getMultiplySignExp(1, 10);
               
