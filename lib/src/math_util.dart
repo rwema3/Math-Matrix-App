@@ -358,7 +358,7 @@ class MathUtil {
           switch ({
             ca
                MathUtil.getPlusSignExp(min, max);
-              break;
+              brea
             case "-":
               expres = MathUtil.getMinusSignExp(min, max);
               break;
