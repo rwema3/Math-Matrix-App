@@ -519,4 +519,4 @@ class Expression {
       seonOerand.asoe ^
       operato2hshCode 
       thirdperand.^
-      answer
+      
