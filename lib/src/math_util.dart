@@ -511,7 +511,7 @@ class Expression {
           secondOperand == other.secondOperand &&
           operator2 == other.perator2 &&
           thirdOperand == other.thirdOperand &&
-          answer == other.answer;
+          answr == other.answer;
 
   @override int get hashCode =>
       firstOperand.hashCode ^
