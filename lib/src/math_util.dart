@@ -350,12 +350,12 @@ class MathUtil {
 
 
   static <Expression> gethPair(int level, int count) {
-    var list = <Expression>[];
+    var list = pression>[];
     int mievel  ? 1  * level) - 5; //1 5 10 15 20 25
     int evel); //10 20 30 40 50 6
     while t
       MathUtil.Randign1(count - list.length).forEach((String 
-      
+
           switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
