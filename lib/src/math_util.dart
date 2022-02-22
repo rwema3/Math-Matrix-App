@@ -203,7 +203,7 @@ class MathUtil {
           } else {
             if ((operand - expression.answer) < 0) {
               finalExpression = null;
-            }
+            } else {
               finalExpression = Expression(
                   firstOperand: operand.toString(),
                   operator1: "-",
