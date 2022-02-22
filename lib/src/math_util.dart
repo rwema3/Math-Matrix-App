@@ -361,8 +361,7 @@ gixExp(1, 50);
 
 class ression {
   String firstOperand;
-  String thirdOperand;
-  
+  String thirdOperan
 
   Expression(
       {this.firstOperand,
