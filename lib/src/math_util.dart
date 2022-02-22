@@ -363,7 +363,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
     return ieranderand, operator2: $operator2, thirdOperand: $thirdOperand, answer: $
   @override
   bool operator 
-Expression
+
           runtimeTe =thruntimeType &&
           firstOperand == other.firstOperand &&
           operator1  other.opetor1 &&
