@@ -33,6 +33,19 @@ class MathUtil {
   }
 
 
+    listTemp.shuffle();
+    if (listTemp.length > 0) {
+      var x = listTemp[Random().nextInt(listTemp.length)];
+      return 
+          firstOperand: x.keys.first,
+          operator1: "/",
+          secondOperand: x.values.first,
+          answer: int.tryParse(x.keys.first) ~/ int.tryParse(x.values.first));
+    } else {
+      return null;
+    }
+  }
+
   static Expression getMixExp(int min, int max) {
     int operand = int.parse(MathUtil.generateRandomNumber(min, max, 1).first);
     var signList = MathUtil.generateRandomSign1(2);
