@@ -45,9 +45,9 @@ This application built [Flutter](https://flutter.dev/). Flutter is cross-platfor
 * [Dart](https://dart.dev/)
 
 <!-- ROADMAP -->
-## Roadmap
+## Developer Mr Rwema
 
-See the [open issues](https://github.com/jaysavsani07/math-metrix/issues) for a list of proposed features (and known issues).
+Follow Him via [GitHub](https://github.com/rwema3) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
