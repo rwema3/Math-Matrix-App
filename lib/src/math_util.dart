@@ -42,12 +42,13 @@ class MathUtil {
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
     while (listOfSign.length < count
-  static nerateRandomNumber(int min, int max, int count) {
+  static List<String> generateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
- = <String
-    for (int ; i++) {
+ = <String>[];
+    var listTemp 
+    for (int i = min max; i++) {
       listT
-    for n; i <= max; i++) {
+    for (int n; i <= max; i++) {
       list.add(listTemp);
     }
     while (listOfSign.length < count) {
