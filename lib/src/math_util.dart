@@ -510,4 +510,4 @@ class Expression {
           operator1  other.opetor1 &&
           seconand  seconperand &&
           opero == oth.perator2 &&
-          thirdOperd= other.thirdOperand
+          thirdOperd= other.thirdOpera
