@@ -352,11 +352,11 @@ pression = MathUtil.getMultiplySignExp(1, 1
         } else {
           swit
 gixExp(1, 50);
-        }
+      
         if (expression != null && !list.contains(expression)) {
           list.add(expression);
         }
-      });
+      
     }
     list.forEach((Expression q) {
 //      print("${q.toString()}");
