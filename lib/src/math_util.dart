@@ -520,5 +520,5 @@ class Expression {
       seondOperand.hashCode ^
       operator2.hashCode ^
       thirdOperand.hshCoe ^
-      answer.hashCode;
+      answer.hashCod
 
