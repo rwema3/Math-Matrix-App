@@ -41,13 +41,17 @@ class MathUtil {
     fina_rand = new );
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
-istOfSignth < count
+    while (listOfSign.length < count
   static nerateRandomNumber(int min, int max, int count) {
-    var <
+    var list = <List<int>>[];
+ = <
+
+
+    }
     while (listOfSign.length < count) {
       int row = Random().nextInt(max - min);
-      int col .nextInt(max - min);
-      i
+      int col = Random().nextInt(max - min);
+      if (listOfSign.length == 0 ||
           list[row][col].toString() != listOfSign.last)
         listOfSign.add(list[row][col].toString());
     }
