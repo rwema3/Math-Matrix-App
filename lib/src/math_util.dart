@@ -21,30 +21,7 @@ class MathUtil {
   secondOperand: expression.secondOperand,
                   operator2: "/",
                   thirdOperand: operand.toString(),
-                  answer: expression.answer ~/ operand);
-on = MathUtil.getDivideSignExp(1, 15);
-              break;
-          }
-        } else {
-          switch (sign) {
-            case "+":
-              expression = MathUtil.getPlusSignExp(min, max);
-              break;
-            case "-":
-              expression = MathUtil.getMinusSignExp(min, max);
-              break;
-            case "*":
-              expression = MathUtil.getMultiplySignExp(5, 30);
-              break;
-            case "/":
-              expression = MathUtil.getDivideSignExp(5, 30);
-              break;
-          }
-        }
-        if (expression != null && !list.contains(expression)) {
-          list.add(expression);
-        }
-      });
+
     }
     list.forEach((Expression q) {
       print("${q.toString()}");
