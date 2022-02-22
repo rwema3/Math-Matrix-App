@@ -27,28 +27,7 @@ class MathUtil {
       case "-":
         return 1;
       case "*":
-        return 2;
-      case "/":
-    fSign;
-  }
-
-    switch (firstSign != "" ? firstSign : secondSign) {
-      case "+":
-        expression = MathUtil.getPlusSignExp(min, max);
-        break;
-      case "-":
-        expression = MathUtil.getMinusSignExp(min, max);
-        break;
-      case "*":
-        expression = MathUtil.getMultiplySignExp(1, 15);
-        break;
-      case "/":
-        expression = MathUtil.getDivideSignExp(min, max);
-        break;
-    }
-    if (expression != null) {
-      switch (firstSign != "" ? signList[1] : signList[0]) {
-        case "+":
+ 
           if (firstSign != "")
             finalExpression = Expression(
                 firstOperand: expression.firstOperand,
