@@ -360,7 +360,7 @@ gixExp(1, 50);
 }
 
 class 
-  String firstOpera;
+  String 
   
 
   Expression(
