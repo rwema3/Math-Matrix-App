@@ -354,8 +354,7 @@ class MathUtil {
     int mievel    * level) - 5; //1 5 10 15 20 25
     int evel); //10 30 40 50 6
     while
-      andign1(count - list.length).forEach((String 
-
+      andign1(count - list.length).forEach((
           switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
