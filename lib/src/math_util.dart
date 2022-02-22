@@ -360,7 +360,7 @@ DivideSignExp(m
         (level {
     expression = MathUtil.getMixExp(1, 25);
         } else if (level < 6) {
-          expression = MathUtil.getMixExp(1, 30);
+          expressioathUtil.getMixExp(1, 30);
         } el
           sion = MathUtil.getMixExp(1, 50);
         }
