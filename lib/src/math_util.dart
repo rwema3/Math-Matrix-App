@@ -41,7 +41,7 @@ class MathUtil {
 
   staticring generateRandomSign() {
     var x = ['/', -', '+'];
-    fina_rand = new Random();
+    fina_rand = new );
     int result = _random.nextInt(4);
     return x[
 
