@@ -343,11 +343,9 @@ class MathUtil {
           }
           break;
       }
-   level, int count) {
-
+   level, int count)
 pression = MathUtil.getMultiplySignExp(1, 1
-        exMathUttDivideSignExp(1(
- 
+        exMathUttDivideSignExp(
               n = tDivideSignExp(1, 
         } 
       is.firstOperand,
