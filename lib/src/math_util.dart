@@ -356,7 +356,7 @@ class MathUtil {
     while
       andign1(count - list.length).forEach((
           switch ({
-            case 
+            ca
               expression = MathUtil.getPlusSignExp(min, max);
               break;
             case "-":
