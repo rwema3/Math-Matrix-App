@@ -363,7 +363,7 @@ class Expression {
   String firstOperand;
 
   nd;
-  String 
+  
   String thirdOperand;
   int answer;
 
