@@ -20,4 +20,16 @@ class MathUtil {
         
           operator1 == other.operator1 &&
           secondOperand == other.secondOperand &&
+          operator2 == other.operator2 &&
+          thirdOperand == other.thirdOperand &&
+          answer == other.answer;
 
+  @override
+  int get hashCode =>
+      firstOperand.hashCode ^
+      operator1.hashCode ^
+      secondOperand.hashCode ^
+      operator2.hashCode ^
+      thirdOperand.hashCode ^
+      answer.hashCode;
+}
