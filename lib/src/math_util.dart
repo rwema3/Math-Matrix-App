@@ -346,8 +346,7 @@ class MathUtil {
     } else {
       finalExpression = expression;
     }
-    return finalExpressio
-
+    
 <r(int level, int count) {
 
 pression = MathUtil.getMultiplySignExp(1, 10);
