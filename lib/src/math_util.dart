@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
 
   @
     return ierandesanr2: $tor2, thirdOperand: $thirdOperand, answer
-          runtimeTe =untimeType &&
+          runtimeTe =untimeT&&
           == other.firstOperand &&
           operator1  other.opetor1 &&
           seconand  seconperand &&
