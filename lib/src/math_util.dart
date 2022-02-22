@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
             case 
               expathUtil.getMixExp(1, 15);
               break;
-            c
+      
 DivideSignExp(min, max);
               break;
           }
