@@ -353,7 +353,7 @@ class MathUtil {
 pression = MathUtil.getMultiplySignExp(1, 10);
               break;
             
-        exMathUtil.getDivideSignExp(1, 10);
+        exMathUttDivideSignExp(1, 10);
                 
 
 hUtilPlusSignExp(min, max);
