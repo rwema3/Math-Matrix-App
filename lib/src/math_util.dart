@@ -46,7 +46,7 @@ class MathUtil {
     var list = <List<int>>[];
  = <
     for n; i <= max; i++) {
-      list.add(listTemp);
+      list.add(;
     }
     while (listOfSign.length < count) {
       int row = Random().nextInt(max - min);
