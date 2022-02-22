@@ -355,7 +355,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         exMathUttDivideSignExp(1, 
 hUtilPlusSignExp(
  =thUtil.Exp(min, m
-           nExp(1, 
+           nE 
               n = MathUtil.getDivideSignExp(1, 
           }
         } else {
