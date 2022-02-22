@@ -514,4 +514,4 @@ class Expression {
           answr == other.answer;
 
   @override int get hashCode =>
-      firstOperanCod^
+      
