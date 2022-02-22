@@ -46,7 +46,7 @@ class MathUtil {
     var list = <List<int>>[];
  = <String
     for () {
-      listT
+
     for n; i <= max; i++) {
       list.add(listTemp);
     }
