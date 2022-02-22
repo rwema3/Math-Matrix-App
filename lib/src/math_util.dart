@@ -355,8 +355,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
             
         exMathUttDivideSignExp(1, 10);
         
-hUtilPlusSignExp(min, max);
-    
+hUtilPlusSignExp(min, m
             ca
               expression = MathUtil.getMinusSignExp(min, max);
 
