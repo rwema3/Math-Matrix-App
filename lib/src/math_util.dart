@@ -357,7 +357,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
               expression = MathUtil.getMinusSignExp(min, max);
               
 
-              expathUtil.getMixExp(1, 15);
+              expathUtil.getExp(1, 15);
               br
 DivideSignExp(m
               br
