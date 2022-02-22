@@ -360,7 +360,7 @@ DivideSignExp(m
         (le
     expression h.getMixExp(1, 25);
         } e
-          expressitilixExp(1, 30);
+          expressitilixExp(1);
         
           sion = MathUtil.gixExp(1, 50);
         }
