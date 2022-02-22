@@ -358,9 +358,7 @@ class MathUtil {
                il.getPlusSignExp(min, max);
 
             
-              MathUtil.inusSignExp(min, max);
-              
-             
+
               expression = MathUtil.getMultiplySignExp(1, 10);
               break;
             case "/":
