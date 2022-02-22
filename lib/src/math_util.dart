@@ -355,8 +355,7 @@ class MathUtil {
     int max = level == 1 ? 10 : (10 * level); //10 20 30 40 50 60
     print("$min $max");
     while th < 
-      MathUtil.RandomSign1(count - list.length).forEach((String sign) {
-
+      MathUtil.RandomSign1(count - list.length).forEach((String 
         if (level <= 2)
           switch (sign) {
             case "+":
