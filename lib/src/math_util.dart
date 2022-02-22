@@ -359,7 +359,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expression = MathUtil.getMultiplySignExp(1, 15);
               b
             case "/":
-              n = MathUtil.getDivideSignExp(min, max);
+              n = ivideSignExp(min, max);
               brs
       
         } else evel <= 4) {
