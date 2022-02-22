@@ -24,24 +24,7 @@ class MathUtil {
                   answer: expression.answer ~/ operand);
             }
           } else {
-            if (operand % expression.answer == 0) {
-              finalExpression = null;
-            } else {
-              finalExpression = Expression(
-                  firstOperand: operand.toString(),
-                  operator1: "/",
-                  secondOperand: expression.firstOperand,
-                  operator2: expression.operator1,
-                  thirdOperand: expression.secondOperand,
-                  answer: operand ~/ expression.answer);
-            }
-          }
-          break;
-      }
-    } else {
-      finalExpression = expression;
-    }
-    return finalExpression;
+       on;
   }
 
   static Expression getMentalExp(int level) {
