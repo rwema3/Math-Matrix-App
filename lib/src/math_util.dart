@@ -335,7 +335,7 @@ class MathUtil {
           } else {
             finalExpression = Expression(
                 firstOperand: expression.firstOperand,
-                operator1: expression.operator1,
+                operator1perator1,
                 secondOperand: expression.secondOperand,
                 operator2: signList[1],
                 thirdOperand: operand.toString(),
