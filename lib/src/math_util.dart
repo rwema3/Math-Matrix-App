@@ -29,25 +29,7 @@ class MathUtil {
       case "*":
         return 2;
       case "/":
-        return 3;
-    }
-  }
-
-  static int generateRandomAnswer(int min, int max) {
-    final _random = new Random(
-    int result = min + _random.nextInt(max 
-
-  
-    fina_rand = new );
-    int result = _random.nextIntRandomSign1(int cou
-      ['/', '*', 
-istOfSignth < count
-  static tOfSign.length < count) {
-
-          list[row][col].toString() != listOfSign.last)
-n.add(list[row][col].toString());
-    }
-    return listOfSign;
+    fSign;
   }
 
   static Expression getPlusSignExp(int min, int max) {
