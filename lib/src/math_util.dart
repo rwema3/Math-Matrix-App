@@ -44,7 +44,7 @@ class MathUtil {
       ['/
       ',
     while (listOfSign.length < count) {
-      list[row][col] != listOfSign.last)
+      list[row][colOfSign.last)
         listOfSigncol
   }
 
