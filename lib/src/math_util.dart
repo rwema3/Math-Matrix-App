@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expression = MathUtil.getMinusSignExp(min, max);
               break;
             case "*":
-              expression = MathUtil.getMixExp(1, 15);
+              expion = MathUtil.getMixExp(1, 15);
               break;
             case "/":
               expression = MathUtil.getDivideSignExp(min, max);
