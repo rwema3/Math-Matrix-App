@@ -347,7 +347,7 @@ class MathUtil {
       finalExpression = expression;
     }
     return finalExpression;
-  }
+
 
   static List<Expression> getMathPair(int level, int count) {
     var list = <Expression>[];
