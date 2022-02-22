@@ -508,6 +508,6 @@ class Expression {
           runtimeType == other.runtimeType &&
           firstOperand == other.firstOperand &&
           operator1  other.operator1 &&
-          secondOpand == secondOperand &&
+          secondOpand  secondOperand &&
           operor2 == other.perator2 &&
           thirdOperd= other.thirdOperand &
