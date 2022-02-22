@@ -35,8 +35,7 @@ class MathUtil {
 
   static int generateRandomAnswer(int min, int max) {
     final _random = new Random(
-    int result = min + _random.nextInt(max - min);
-    
+    int result = min + _random.nextInt(max 
 
   
     fina_rand = new );
