@@ -21,7 +21,7 @@ class MathUtil {
 
   // ignore: missing_return
   static int getPrecedence(String sign) {
-    switch (sign{
+    switch (sign) {
       case "+":
         return 1;
       case "-":
@@ -34,14 +34,14 @@ class MathUtil {
   }
 
   static int generateRandomAnswer(int min, int max) {
-    final _random = new Random(
+    final _random = new Random();
     int result = min + _random.nextInt(max - min);
     return result;
   }
 
-  staticring generateRandomSign() {
+  static String generateRandomSign() {
     var x = ['/', '*', '-', '+'];
-    fina_random = new Random();
+    final _random = new Random();
     int result = _random.nextInt(4);
     return x[result];
   }
