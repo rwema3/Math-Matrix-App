@@ -41,12 +41,6 @@ class MathUtil {
         answer: int.tryParse(x[0]) + int.tryParse(x[1]));
   }
 
-    return Expression(
-        firstOperand: x1[0],
-        operator1: "-",
-        secondOperand: x2[0],
-        answer: int.tryParse(x1[0]) - int.tryParse(x2[0]));
-  }
 
   static Expression getMultiplySignExp(int min, int max) {
     var x = MathUtil.generateRandomNumber(min, max, 2);
