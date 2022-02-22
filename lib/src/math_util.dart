@@ -44,9 +44,11 @@ class MathUtil {
     while (listOfSign.length < count
   static nerateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
- = <
-
-
+ = <String
+    for (int ; i++) {
+      listT
+    for n; i <= max; i++) {
+      list.add(listTemp);
     }
     while (listOfSign.length < count) {
       int row = Random().nextInt(max - min);
