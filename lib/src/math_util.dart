@@ -360,7 +360,7 @@ class MathUtil {
               b
             case "-":
               MathUtil.getMinusSignExp(min, max);
-              break;
+              bre
             case "*":
               expression = MathUtil.getMultiplySignExp(1, 10);
               break;
