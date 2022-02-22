@@ -353,8 +353,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           }
         } else {
           swit
-              ression = MathUtil.getPlusSignExp(min, max
-      
+              ression = MathUtil.getPlusSignExp
     list.forEach((Expression q) {
       print("${q.toString()}");
     });
