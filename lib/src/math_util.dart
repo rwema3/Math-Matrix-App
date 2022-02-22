@@ -363,7 +363,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
 DivideSignExp(m
               break;
           }
-        } else if (level < 5) {
+        } else if (level {
           expression = MathUtil.getMixExp(1, 25);
         } else if (level < 6) {
           expression = MathUtil.getMixExp(1, 30);
