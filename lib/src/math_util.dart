@@ -518,5 +518,4 @@ class Expression {
       operator1.hashe ^
       seonOerand.asoe ^
       operato2hshCode 
-      thirdperand.^
-      
+      thirdperand
