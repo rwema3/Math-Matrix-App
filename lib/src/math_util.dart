@@ -364,7 +364,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
   @override
   bool operator ==(
       identicalther) ||
-      other is Expression
+Expression
           runtimeTe =thruntimeType &&
           firstOperand == other.firstOperand &&
           operator1  other.opetor1 &&
