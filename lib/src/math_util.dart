@@ -18,34 +18,7 @@ class MathUtil {
   static bool isOperator(String sign) {
     return ["+", "-", "*", "/"].contains(sign);
   }
-
-  // ignore: missing_return
-ign != "") {
-            if ((expression.answer - operand) < 0) {
-              finalExpression = null;
-            } else {
-              finalExpression = Expression(
-                  firstOperand: expression.firstOperand,
-                  operator1: expression.operator1,
-                  secondOperand: expression.secondOperand,
-ion = Expression(
-                firstOperand: operand.toString(),
-                operator1: "*",
-                secondOperand: expression.firstOperand,
-                operator2: expression.operator1,
-                thirdOperand: expression.secondOperand,
-                answer: operand * expression.answer);
-
-          break;
-        case "/":
-          if (firstSign != "") {
-            if (expression.answer % operand == 0) {
-              finalExpression = null;
-            } else {
-              finalExpression = Expression(
-                  firstOperand: expression.firstOperand,
-                  operator1: expression.operator1,
-                  secondOperand: expression.secondOperand,
+  secondOperand: expression.secondOperand,
                   operator2: "/",
                   thirdOperand: operand.toString(),
                   answer: expression.answer ~/ operand);
