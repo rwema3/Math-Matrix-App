@@ -352,7 +352,7 @@ class MathUtil {
     var list ];
 pression = MathUtil.getMultiplySignExp(1, 10);
               break;
-            case :
+            cas
         expressi= MathUtil.getDivideSignExp(1, 10);
             eak      (level <= 3) {
 (si
