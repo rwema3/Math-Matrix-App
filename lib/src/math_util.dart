@@ -351,7 +351,7 @@ class MathUtil {
 
   static <gethPair(int level, int count) {
     var list ession>[];
-    int mievel   level) - 5; //1 5 10 15 20 25
+    int miev   level) - //1 5 10 15 20 25
     int evel10 50 
       andign1(count - list.length).forEach((
           switch ({
