@@ -356,7 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
     
      
               expression = MathUtil.getMinusSignExp(min, max);
-              break;
+              bre
             case 
               expathUtil.getMixExp(1, 15);
               break;
