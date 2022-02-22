@@ -40,8 +40,7 @@ class MathUtil {
   
     fina_rand = new );
     int result = _random.nextIntRandomSign1(int cou
-      ['/', '*', '-', '
-      ',
+      ['/', '*', 
     while (listOfSign.length < count) {
       list[row][
   }
