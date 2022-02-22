@@ -362,7 +362,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
   
     int min = 1 ? 1 : ( level) - 5; //1 5 10 15 20 25
     int  * 
-lisngth 
+ligth 
       generateRandomSi(count - list.length).forEach((String sign) {
         Expression expression;
         if (level <= 2) {
