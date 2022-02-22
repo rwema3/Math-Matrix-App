@@ -20,33 +20,7 @@ class MathUtil {
   }
 
   // ignore: missing_return
-  static int getPrecedence(String sign) {
-    switch (sign{
-      case "+":
-        return 1;
-      case "-":
-        return 1;
-      case "*":
- 
-          if (firstSign != "")
-            finalExpression = Expression(
-                firstOperand: expression.firstOperand,
-                operator1: expression.operator1,
-                secondOperand: expression.secondOperand,
-                operator2: "+",
-                thirdOperand: operand.toString(),
-                answer: expression.answer + operand);
-          else
-            finalExpression = Expression(
-                firstOperand: operand.toString(),
-                operator1: "+",
-                secondOperand: expression.firstOperand,
-                operator2: expression.operator1,
-                thirdOperand: expression.secondOperand,
-                answer: operand + expression.answer);
-          break;
-        case "-":
-          if (firstSign != "") {
+ign != "") {
             if ((expression.answer - operand) < 0) {
               finalExpression = null;
             } else {
