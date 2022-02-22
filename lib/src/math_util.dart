@@ -43,7 +43,7 @@ class MathUtil {
     int result = _random.nextInt
   static ListrateRandomSign1(int cou
       ['/', '*', '-', '+'],
-      ['/', '*', '-', '+'],
+      ['/', '*', 
       ['/', '*', '-', '+'],
       ['/', '*', '-', '+']
     ];
