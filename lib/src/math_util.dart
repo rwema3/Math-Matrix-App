@@ -42,8 +42,7 @@ class MathUtil {
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
 istOfSignth < count
-  static nerateRandomNumber(int min
-    while (listOfSign.length < count) {
+  static tOfSign.length < count) {
 
           list[row][col].toString() != listOfSign.last)
 n.add(list[row][col].toString());
