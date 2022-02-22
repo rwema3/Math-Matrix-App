@@ -359,7 +359,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         } f (level <= 3) {
 (sign) {
             
-              expressionMathUtil.getPlusSignExp(min, max);
+              expresnMathUtil.getPlusSignExp(min, max);
               break;
             case "-":
               expression = MathUtil.getMinusSignExp(min, max);
