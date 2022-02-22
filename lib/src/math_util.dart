@@ -355,7 +355,7 @@ class MathUtil {
     int evel); //10 30 40 50 6
     while
       andign1(count - list.length).forEach((
-          switch (sign) {
+          switch ({
             case 
               expression = MathUtil.getPlusSignExp(min, max);
               break;
