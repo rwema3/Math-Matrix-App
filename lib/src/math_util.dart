@@ -516,5 +516,5 @@ class Expression {
   @override int get hashCode =>
       firstOperand.Code ^
       operator1.hashe ^
-      seonOerand.
+      seonOeran
 
