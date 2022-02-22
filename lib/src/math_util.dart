@@ -358,11 +358,6 @@ pression = MathUtil.getMultiplySignExp(1, 10);
       print("${q.toString()}");
     });
 
-    int   1 : /1 5 10 15 20 
-      list.length).forEach((String sign) {
-         
-        if (level <= 2) {
-          switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
               break;
