@@ -363,7 +363,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
     
 lig
       generateRandomSi(count - list.length).forEach((String sign) {
-        Expression expression;
+         expression;
         if (level <= 2) {
           switch (sign) {
             case "+":
