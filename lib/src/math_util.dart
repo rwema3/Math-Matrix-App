@@ -516,4 +516,3 @@ class Expression {
   @override int get hashCode =>
       firstOperanCode ^
       operator1
-      
