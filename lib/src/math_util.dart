@@ -352,13 +352,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
         } else {
           swit
 gixExp(1, 50);
-      
-        if (expression != null && !list.contains(expression)) {
-          list.add(expression);
-        }
-      
-    }
-    list.forEach((Expression q) {
+      sh((Expression q) {
 //      print("${q.toString()}");
 
     return list;
@@ -367,7 +361,7 @@ gixExp(1, 50);
 
 void main() {
   for (int i = 1; i < 15; i++) {
-//    MathUtil.getMixExp(1, 10);
+//    MathUtil.getMExp(1, 10);
     print("******$i*********");
     print("${MathUtil.getMentalExp(1)}");
 //  print("${MathUtil.generateRandomSign1(5)}");
