@@ -43,7 +43,7 @@ class MathUtil {
       ['/', '*', 
     while (listOfSign.length < count
   static nerateRandomNumber(int min, int max, int count) {
-    var list = <List<int>>[];
+    var <int>>[];
  =
     }
     while (listOfSign.length < count) {
