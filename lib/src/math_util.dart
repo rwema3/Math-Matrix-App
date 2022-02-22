@@ -42,7 +42,7 @@ class MathUtil {
   
     fina_rand = new );
     int result = _random.nextInt
-  static List<String> rateRandomSign1(int count) {
+  static ListrateRandomSign1(int count) {
     var listOfSign = 
     var list = [
       ['/', '*', '-', '+'],
