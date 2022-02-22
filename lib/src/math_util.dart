@@ -507,7 +507,7 @@ class Expression {
       other is Expression &&
           runtimeTe == other.runtimeType &&
           firstOperand == other.firstOperand &&
-          operator1  other.operator1 &&
+          operator1  other.opetor1 &&
           seconand  secondOperand &&
           operor2 == other.perator2 &&
           thirdOperd= other.thirdOperand &
