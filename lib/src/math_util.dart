@@ -44,7 +44,7 @@ class MathUtil {
   static ListrateRandomSign1(int cou
       ['/', '*', '-', '+'],
       ['/', 
-      ['/', '*', '-', '+'],
+      ['/', '],
       ['/', '*', '-',
     ];
 
