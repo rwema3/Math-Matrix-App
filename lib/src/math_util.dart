@@ -350,16 +350,7 @@ class MathUtil {
 
   static <r(int level, int count) {
     var list ession>[];
-    int miev   level) - //1 5 10 15 20 25
-    int evel10 50 
-      andign1(count - list.length).forEach((
-          
-
-               il.getPlusSignExp(min, max);
-
-            
-
-              expression = MathUtil.getMultiplySignExp(1, 10);
+pression = MathUtil.getMultiplySignExp(1, 10);
               break;
             case "/":
               expression = MathUtil.getDivideSignExp(1, 10);
