@@ -47,7 +47,7 @@ This application built [Flutter](https://flutter.dev/). Flutter is cross-platfor
 <!-- ROADMAP -->
 ## Developer Mr Rwema
 
-Follow Him via [GitHub](https://github.com/rwema3) for a list of proposed features (and known issues).
+Follow Him via [GitHub](https://github.com/rwema3) Remember to Star the Repo :').
 
 
 <!-- CONTRIBUTING -->
@@ -61,20 +61,8 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-## License
+### Murakoze | Thanks & God Bless!
 
-Distributed under the MIT License. See [LICENSE](https://github.com/jaysavsani07/math-metrix/blob/master/LICENSE) for more information.
-
-<!-- CONTACT -->
-## Contact
-
-[Nividata Consultancy](https://www.nividata.com/contact/)
-
-## Developers
-
-### Mehul Makwana
-Contact: [LinkedIn](https://www.linkedin.com/in/mehul-makwana-430326b9/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## This app using following awesome open source libraries
@@ -87,6 +75,3 @@ Contact: [LinkedIn](https://www.linkedin.com/in/mehul-makwana-430326b9/)
 * [RFlutter Alert](https://pub.dev/packages/rflutter_alert)
 * [flutter_svg](https://pub.dev/packages/flutter_svg)
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: https://github.com/jaysavsani07/math-metrix/blob/master/assets/images/banner.png
