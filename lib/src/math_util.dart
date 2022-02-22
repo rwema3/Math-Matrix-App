@@ -355,7 +355,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
       this.
       this.secondOperand,
       this.r2,
-      this.
+      
       this}
   @
     $tor2, thirdOperand: $thirdOperand, answer
