@@ -19,28 +19,7 @@ class MathUtil {
             case "/":
               expression = MathUtil.getDivideSignExp(min, max);
               break;
-          }
-        } else if (level < 5) {
 
-void main() {
-  for (int i = 1; i < 15; i++) {
-//    MathUtil.getMixExp(1, 10);
-    print("******$i*********");
-    print("${MathUtil.getMentalExp(1)}");
-//  print("${MathUtil.generateRandomSign1(5)}");
-  }
-}
-
-class Expression {
-  String firstOperand;
-  String operator1;
-  String secondOperand;
-  String operator2;
-  String thirdOperand;
-  int answer;
-
-  Expression(
-      {this.firstOperand,
       this.operator1,
       this.secondOperand,
       this.operator2,
