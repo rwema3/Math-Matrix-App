@@ -22,7 +22,32 @@ class MathUtil {
                   operator2: "/",
                   thirdOperand: operand.toString(),
                   answer: expression.answer ~/ operand);
-on = MathUtil.getDivideSignExp(1, 15);
+
+      finalExpression = expression;
+    }
+    return finalExpression;
+  }
+
+
+              expression = MathUtil.getMultiplySignExp(1, 10);
+              break;
+            case "/":
+              expression = MathUtil.getDivideSignExp(1, 10);
+              break;
+          }
+        } else if (level <= 3) {
+          switch (sign) {
+            case "+":
+              expression = MathUtil.getPlusSignExp(min, max);
+              break;
+            case "-":
+              expression = MathUtil.getMinusSignExp(min, max);
+              break;
+            case "*":
+              expression = MathUtil.getMultiplySignExp(1, 15);
+              break;
+            case "/":
+              expression = MathUtil.getDivideSignExp(1, 15);
               break;
           }
         } else {
