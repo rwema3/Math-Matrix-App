@@ -353,14 +353,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           }
         } else {
           swit
-              ression = MathUtil.getPlusSignExp
-
-            case "*":
-              exprn = MathUtil.getMultiplySignExp(1, 15);
-          
-            
-              n = ivideSignExp(min, max);
-              
+    
       
         } else evel <= 4) {
 (sign) {
