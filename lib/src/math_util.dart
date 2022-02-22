@@ -24,7 +24,27 @@ class MathUtil {
                   answer: expression.answer ~/ operand);
             }
           } else {
- Expression(
+       on;
+
+          finalExpression = Expression(
+              firstOperand: expression.firstOperand,
+              operator1: expression.operator1,
+              secondOperand: expression.secondOperand,
+              operator2: signList[1],
+              thirdOperand: operand.toString(),
+              answer: operand + expression.answer);
+          break;
+        case "-":
+          finalExpression = Expression(
+              firstOperand: expression.firstOperand,
+              operator1: expression.operator1,
+              secondOperand: expression.secondOperand,
+              operator2: signList[1],
+              thirdOperand: operand.toString(),
+              answer: expression.answer - operand);
+          break;
+        case "*":
+          finalExpression = Expression(
               firstOperand: expression.firstOperand,
               operator1: expression.operator1,
               secondOperand: expression.secondOperand,
