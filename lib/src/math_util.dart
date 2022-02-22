@@ -362,7 +362,7 @@ gixExp(1, 50);
 class Expression {
   String firstOperand;
 
-  String Operand;
+  nd;
   String 
   String thirdOperand;
   int answer;
