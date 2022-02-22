@@ -359,7 +359,7 @@ hUtilPlusSignExp(m
             ca
               expression =thUtil.getMinusSignExp(min, max
             case "*":
-              expression hUt.getMultiplySignExp(1, 15);
+              expression hUt.geltiplySignExp(1, 15);
               break;
             case "/":
               expression = MathUtil.getDivideSignExp(1, 15);
