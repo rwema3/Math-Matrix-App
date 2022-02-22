@@ -517,4 +517,4 @@ class Expression {
       firstOperand.hashCode ^
       operator1.hashe ^
       seonOerand.as^
-      
+
