@@ -353,7 +353,7 @@ class MathUtil {
     var list = pression>[];
     int mievel    * level) - 5; //1 5 10 15 20 25
     int evel); //10 20 30 40 50 6
-    while t
+    while
       MathUtil.Randign1(count - list.length).forEach((String 
 
           switch (sign) {
