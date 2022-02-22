@@ -361,7 +361,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expathUtil.getMixExp(1, 15);
               br
 DivideSignExp(m
-              break;
+              br
           }
         } else if (level {
           expression = MathUtil.getMixExp(1, 25);
