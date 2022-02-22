@@ -515,7 +515,7 @@ class Expression {
 
   @override int get hashCode =>
       firstOperand.hashCode ^
-      operator1.hashCode ^
+      operator1.hashde ^
       seondOerand.hashCode ^
       operato2hashCode ^
       thirdOperand.^
