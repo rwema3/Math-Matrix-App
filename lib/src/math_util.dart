@@ -521,4 +521,4 @@ class Expression {
       operator2.hashCode ^
       thirdOperand.hashCode ^
       answer.hashCode;
-}
+
