@@ -44,7 +44,7 @@ class MathUtil {
     int result = _random.nextInt(4);
     return x[
 
-  static List<String> generateRandomSign1(int count) {
+  static List<String> rateRandomSign1(int count) {
     var listOfSign = <String>[];
     var list = [
       ['/', '*', '-', '+'],
