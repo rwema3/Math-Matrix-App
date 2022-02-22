@@ -509,7 +509,7 @@ class Expression {
           firstOperand == other.firstOperand &&
           operator1 == other.operator1 &&
           secondOperand == other.secondOperand &&
-          operator2 == other.operator2 &&
+          operator2 == other.perator2 &&
           thirdOperand == other.thirdOperand &&
           answer == other.answer;
 
