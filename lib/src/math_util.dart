@@ -12,39 +12,7 @@ class MathUtil {
         return x1 * x3;
       case "/":
         return x1 ~/ x3;
-    }
-  }
 
-  static bool isOperator(String sign) {
-    return ["+", "-", "*", "/"].contains(sign);
-  }
-  secondOperand: expression.secondOperand,
-                  operator2: "/",
-                  thirdOperand: operand.toString(),
-
-    }
-    list.forEach((Expression q) {
-      print("${q.toString()}");
-    });
-    return list;
-  }
-
-
-            case "*":
-              expression = MathUtil.getMultiplySignExp(1, 15);
-              break;
-            case "/":
-              expression = MathUtil.getDivideSignExp(min, max);
-              break;
-          }
-        } else if (level <= 4) {
-          switch (sign) {
-            case "+":
-              expression = MathUtil.getPlusSignExp(min, max);
-              break;
-            case "-":
-              expression = MathUtil.getMinusSignExp(min, max);
-              break;
             case "*":
               expression = MathUtil.getMixExp(1, 15);
               break;
