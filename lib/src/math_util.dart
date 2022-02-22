@@ -44,7 +44,7 @@ class MathUtil {
       ['/
       ',
     while (listOfSign.length < count) {
-      ).nextInt(| list[row][col] != listOfSign.last)
+      list[row][col] != listOfSign.last)
         listOfSigncol]);
     
   }
