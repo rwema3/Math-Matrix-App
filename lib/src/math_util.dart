@@ -39,8 +39,7 @@ class MathUtil {
     return result;
   }
 
-  staticring() {
-
+  
     fina_rand = new );
     int result = _random.nextInt(4);
     return x[
