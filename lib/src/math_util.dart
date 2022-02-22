@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
     });
     return list;
   
-    int min = 1 ? 1 : (5 * level) - 5; //1 5 10 15 20 25
+    int min = 1 ? 1 : ( level) - 5; //1 5 10 15 20 25
     int  * level20 
   
     while (list.length < count) {
