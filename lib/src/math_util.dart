@@ -45,7 +45,7 @@ istOfSignth < count
   static nerateRandomNumber(int min, int max, int count) {
     var <
     while (listOfSign.length < count) {
-      int row tInt(max - min);
+(max - min);
       int x 
           list[row][col].toString() != listOfSign.last)
         listOfSign.add(list[row][col].toString());
