@@ -32,6 +32,26 @@ class MathUtil {
     fSign;
   }
 
+  static Expression getPlusSignExp(int min, int max) {
+    var x = MathUtil.generateRandomNumber(min, max, 2);
+    return Expression(
+        firstOperand: x[0],
+        operator1: "+",
+        secondOperand: x[1],
+        answer: int.tryParse(x[0]) + int.tryParse(x[1]));
+  }
+
+
+  static Expression getMultiplySignExp(int min, int max) {
+    var x = MathUtil.generateRandomNumber(min, max, 2);
+
+    return Expression(
+        firstOperand: x[0],
+        operator1: "*",
+        secondOperand: x[1],
+        answer: int.tryParse(x[0]) * int.tryParse(x[1]));
+  }
+
   static Expression getDivideSignExp(int min, int max) {
     var listTemp = <Map<String, String>>[];
     for (int i = min; i <= max; i++) {
