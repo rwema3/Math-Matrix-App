@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
       th
   @
     $tor2, d: irdOpnd, answer
-          T&&
+          
           
         
           opero 
