@@ -357,7 +357,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
 DivideSignExp(m
               br
           }
-        } else if (level {
+        (level {
     expression = MathUtil.getMixExp(1, 25);
         } else if (level < 6) {
           expression = MathUtil.getMixExp(1, 30);
