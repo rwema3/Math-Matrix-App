@@ -43,9 +43,7 @@ class MathUtil {
       ['/', '*', 
 istOfSignth < count
   static nerateRandomNumber(int min, int max, int count) {
-    var <int>>[];
- =
-    }
+    var <
     while (listOfSign.length < count) {
       int row = Random().nextInt(max - min);
       int col = Random().nextInt(max - min);
