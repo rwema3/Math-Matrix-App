@@ -41,6 +41,12 @@ class MathUtil {
         answer: int.tryParse(x[0]) + int.tryParse(x[1]));
   }
 
+  static Expression getMinusSignExp(int min, int max) {
+    var x1 = MathUtil.generateRandomNumber(max ~/ 2, max, 1);
+    var x2 = MathUtil.generateRandomNumber(min, max, 1);
+    while (int.tryParse(x2[0]) > int.tryParse(x1[0])) {
+      x2 = MathUtil.generateRandomNumber(min, max, 1);
+    }
     return Expression(
         firstOperand: x1[0],
         operator1: "-",
