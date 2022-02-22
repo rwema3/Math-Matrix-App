@@ -363,4 +363,4 @@ pression = MathUtil.getMultiplySignExp(1, 1
           == r.frand 
           seconand
           opero == oth.perator2 &&
-          thirdOperd= other.thirdOpera
+          thirdOperd= 
