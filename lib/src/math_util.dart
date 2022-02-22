@@ -354,7 +354,7 @@ class MathUtil {
     int mievel  ? 1  * level) - 5; //1 5 10 15 20 25
     int evel); //10 20 30 40 50 6
     while t
-      MathUtil.RandomSign1(count - list.length).forEach((String 
+      MathUtil.Randign1(count - list.length).forEach((String 
       
           switch (sign) {
             case "+":
