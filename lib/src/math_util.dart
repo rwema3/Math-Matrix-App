@@ -44,8 +44,7 @@ class MathUtil {
 istOfSignth < count
   static nerateRandomNumber(int min
     while (listOfSign.length < count) {
-(max - min);
-      int x 
+
           list[row][col].toString() != listOfSign.last)
         listOfSign.add(list[row][col].toString());
     }
