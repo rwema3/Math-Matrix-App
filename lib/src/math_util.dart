@@ -21,7 +21,7 @@ class MathUtil {
 
   // ignore: missing_return
   static int getPrecedence(String sign) {
-    switch (sign) {
+    switch (sign{
       case "+":
         return 1;
       case "-":
