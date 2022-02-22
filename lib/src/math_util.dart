@@ -356,7 +356,7 @@ class MathUtil {
     print("$min $max");
     while (list.length < count) {
       MathUtil.generateRandomSign1(count - list.length).forEach((String sign) {
-        Expression expssion;
+        Expression 
         if (level <= 2) {
           switch (sign) {
             case "+":
