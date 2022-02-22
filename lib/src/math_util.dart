@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
 }
         } elsf (level <= 3) {
 (sign) {
-            case 
+            
               expressionMathUtil.getPlusSignExp(min, max);
               break;
             case "-":
