@@ -32,6 +32,21 @@ class MathUtil {
     fSign;
   }
 
+
+  static Expression getMixExp(int min, int max) {
+    int operand = int.parse(MathUtil.generateRandomNumber(min, max, 1).first);
+    var signList = MathUtil.generateRandomSign1(2);
+    String firstSign = (MathUtil.getPrecedence(signList[0]) >=
+            MathUtil.getPrecedence(signList[1]))
+        ? signList[0]
+        : "";
+    String secondSign = (MathUtil.getPrecedence(signList[0]) >=
+            MathUtil.getPrecedence(signList[1]))
+        ? ""
+        : signList[1];
+    Expression expression;
+    Expression finalExpression;
+
     switch (firstSign != "" ? firstSign : secondSign) {
       case "+":
         expression = MathUtil.getPlusSignExp(min, max);
