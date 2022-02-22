@@ -39,7 +39,7 @@ class MathUtil {
     return result;
   }
 
-  staticring generateRandomSign() {
+  staticring() {
     var x = ['/', -
     fina_rand = new );
     int result = _random.nextInt(4);
