@@ -9,7 +9,9 @@
 
 ### Math Matrix is a Math Game that tries improvise your math skills in a fun way.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![dft](https://user-images.githubusercontent.com/52289151/155140417-d18d0716-c84f-43c8-8e9e-cdbdd17a950a.JPG)
+
+
 Simple math games to learn, improve you math skills. This game is easy to play and target everyone from kids to adults. Every level is design in a way to challenge your mind at every step. 
 
 ### This game is divided in 3 main categories 
