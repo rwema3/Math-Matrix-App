@@ -359,7 +359,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               expression = MathUtil.getMultiplySignExp(1, 15);
               break;
             case "/":
-              expression = MathUtil.getDivideSignExp(min, max);
+              exssion = MathUtil.getDivideSignExp(min, max);
               break;
           }
         } else if (level <= 4) {
