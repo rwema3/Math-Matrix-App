@@ -349,8 +349,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
         exMathUttDivideSignExp(1(
  
               n = tDivideSignExp(1, 
-        } else {
-  
+        } 
       is.firstOperand,
       this.
       this.secondOperand,
