@@ -348,7 +348,7 @@ class MathUtil {
 pression = MathUtil.getMultiplySignExp(1, 1
         exMathUttDivideSignExp(1(
  
-              n = l.getDivideSignExp(1, 
+              n = tDivideSignExp(1, 
           }
         } else {
           swit
