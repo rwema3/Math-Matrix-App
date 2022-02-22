@@ -355,10 +355,6 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           swit
               ression = MathUtil.getPlusSignExp(min, max);
 
-            case 
-
-              expression = MathUtil.getMultiplySignExp(5, 30);
-              
             case "/":
               expression = MathUtil.getDivideSignExp(5, 30);
               break;
