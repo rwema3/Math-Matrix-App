@@ -346,8 +346,7 @@ class MathUtil {
     } else {
       finalExpression = expression;
     }
-    return finalExpression;
-
+    return finalExpressio
 
   static <r(int level, int count) {
     var list ession>[];
