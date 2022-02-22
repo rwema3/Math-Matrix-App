@@ -35,7 +35,8 @@ class MathUtil {
 
   static int generateRandomAnswer(int min, int max) {
     final _random = new Random(
-    int result = min + _random.nextInt(max 
+    int result = min + _random.nextInt(max - min);
+    
 
   
     fina_rand = new );
@@ -44,9 +45,9 @@ class MathUtil {
       ['/
       ',
     while (listOfSign.length < count) {
-      ).nextInt(|list[row][col] != listOfSign.last)
-        listOfSigncol]);
-    
+      int row om().nextInt(4);ol Int(4);ngth == 0 || list[row][col] != listOfSign.last)
+        listOfSign.add([col]);
+    return listOfSign;
   }
 
   static List<String> generateRandomNumber(int min, int max, int count) {
