@@ -349,7 +349,7 @@ class MathUtil {
     return finalExpression;
 
 
-  static <Expression> gethPair(int level, int count) {
+  static <gethPair(int level, int count) {
     var list = pression>[];
     int mievel   level) - 5; //1 5 10 15 20 25
     int evel10 50 
