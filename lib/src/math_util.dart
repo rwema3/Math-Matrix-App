@@ -45,7 +45,7 @@ class MathUtil {
   static nerateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
  = <String
-    for (int i = mi; i++) {
+    for (int ; i++) {
       listT
     for n; i <= max; i++) {
       list.add(listTemp);
