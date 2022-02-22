@@ -359,7 +359,7 @@ DivideSignExp(m
           }
         (level {
     expression hUtil.getMixExp(1, 25);
-        } else if (l < 6) {
+        } else if 
           expressioathUtil.getMixExp(1, 30);
         
           sion = MathUtil.getMixExp(1, 50);
