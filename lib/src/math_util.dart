@@ -39,11 +39,15 @@ class MathUtil {
     return result;
   }
 
-  
-    fina_rand = new );
-    int result = _random.nextInt
-  static ListrateRandomSign1(int count) {
+  staticring generateRandomSign() {
+    var x = ['/', '*', '-', '+'];
+    fina_random = new Random();
+    int result = _random.nextInt(4);
+    return x[result];
+  }
 
+  static List<String> generateRandomSign1(int count) {
+    var listOfSign = <String>[];
     var list = [
       ['/', '*', '-', '+'],
       ['/', '*', '-', '+'],
