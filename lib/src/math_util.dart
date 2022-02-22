@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
 
   @orr
   
-    return 'Expression{firstOperand: $$condOperand: ndOperand, operator2: $operator2, thirdOperand: $thirdOperand, answer: $answer
+    return 'Expression{fierand: $$condOperand: ndOperand, operator2: $operator2, thirdOperand: $thirdOperand, answer: $answer
 
   @override
   bool operator ==(Object other) =>
