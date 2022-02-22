@@ -519,4 +519,4 @@ class Expression {
       seonOerand.hashCode ^
       operato2hashCode ^
       thirdOperand.^
-      answer.hash
+      answer.has
