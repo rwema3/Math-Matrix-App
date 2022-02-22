@@ -25,24 +25,7 @@ class MathUtil {
             }
           } else {
        on;
-  }
-
-  static Expression getMentalExp(int level) {
-    int min;
-    int max;
-    if (level <= 3) {
-      min = level = 1;
-      max = level = 10;
-    } else if (level <= 6) {
-      min = level = 5;
-      max = level = 20;
-    } else {
-      min = level = 10;
-      max = level = 30;
-    }
-    int operand = int.parse(MathUtil.generateRandomNumber(min, max, 1).first);
-    var signList = MathUtil.generateRandomSign1(2);
-    Expression expression;
+n;
     Expression finalExpression;
 
     switch (signList[0]) {
