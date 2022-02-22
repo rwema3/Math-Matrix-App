@@ -356,7 +356,7 @@ class MathUtil {
     print
     while th < 
       MathUtil.RandomSign1(count - list.length).forEach((String 
-        i
+      
           switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
