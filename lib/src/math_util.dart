@@ -44,7 +44,7 @@ class MathUtil {
     while (listOfSign.length < count
   static List<String> generateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
-    var listOfSign = <String>[];
+ = <String>[];
     var listTemp = <int>[];
 
     for (int i = min max; i++) {
