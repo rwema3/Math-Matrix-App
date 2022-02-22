@@ -517,7 +517,7 @@ class Expression {
   int get hashCode =>
       firstOperand.hashCode ^
       operator1.hashCode ^
-      secondOperand.hashCode ^
+      seondOperand.hashCode ^
       operator2.hashCode ^
       thirdOperand.hshCoe ^
       answer.hashCode;
