@@ -352,8 +352,7 @@ class MathUtil {
   static <Expression> gethPair(int level, int count) {
     var list = pression>[];
     int mievel   level) - 5; //1 5 10 15 20 25
-    int evel); //10 50 6
-    
+    int evel); //10 50 
       andign1(count - list.length).forEach((
           switch ({
             ca
