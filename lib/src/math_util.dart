@@ -32,7 +32,15 @@ class MathUtil {
     fSign;
   }
 
-
+  static Expression getDivideSignExp(int min, int max) {
+    var listTemp = <Map<String, String>>[];
+    for (int i = min; i <= max; i++) {
+      for (int j = min; j <= max; j++) {
+        if (i != 1 && j != 1 && j != i && j % i == 0) {
+          listTemp.add({j.toString(): i.toString()});
+        }
+      }
+    }
     listTemp.shuffle();
     if (listTemp.length > 0) {
       var x = listTemp[Random().nextInt(listTemp.length)];
