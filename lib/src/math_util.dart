@@ -353,7 +353,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           }
         } else {
           swit
-              expression = MathUtil.getPlusSignExp(min, max);
+              ression = MathUtil.getPlusSignExp(min, max);
 
             case 
               expcase "*":
