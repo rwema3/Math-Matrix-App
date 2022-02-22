@@ -356,7 +356,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         expressi= MathUtil.getDivideSignExp(1, 10);
               break      (level <= 3) {
 (si
-              thUtil.getPlusSignExp(min, max);
+              thUtilPlusSignExp(min, max);
               bre
             case 
               expression = MathUtil.getMinusSignExp(min, max);
