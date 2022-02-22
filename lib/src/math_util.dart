@@ -36,17 +36,27 @@ class MathUtil {
   static int generateRandomAnswer(int min, int max) {
     final _random = new Random(
     int result = min + _random.nextInt(max - min);
-    
+    return result;
+  }
 
   
     fina_rand = new );
-    int result = _random.nextIntRandomSign1(int cou
+    int result = _random.nextInt
+  static ListrateRandomSign1(int count) {
+
+    var list = [
       ['/', '*', '-', '+'],
-      ['/
-      ',
+      ['/', '*', '-', '+'],
+      ['/', '*', '-', '+'],
+      ['/', '*', '-', '+']
+    ];
+
     while (listOfSign.length < count) {
-      int row om().nextInt(4);ol Int(4);ngth == 0 || list[row][col] != listOfSign.last)
-        listOfSign.add([col]);
+      int row = Random().nextInt(4);
+      int col = Random().nextInt(4);
+      if (listOfSign.length == 0 || list[row][col] != listOfSign.last)
+        listOfSign.add(list[row][col]);
+    }
     return listOfSign;
   }
 
