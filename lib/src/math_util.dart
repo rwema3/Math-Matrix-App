@@ -359,7 +359,7 @@ gixExp(1, 50);
   }
 }
 
-class ression {
+class 
   String firstOpera;
   
 
