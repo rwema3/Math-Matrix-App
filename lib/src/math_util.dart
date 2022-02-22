@@ -42,7 +42,7 @@ class MathUtil {
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
 istOfSignth < count
-  static tOfSign.length < count) {
+  static nerateRandomNumbertOfSign.length < count) {
 
           list[row][col].toString() != listOfSign.last)
 n.add(list[row][col].toString());
