@@ -46,7 +46,7 @@ class MathUtil {
     while (listOfSign.length < count) {
       ).nextInt(4 == 0 || list[row][col] != listOfSign.last)
         listOfSigncol]);
-    return listOfSign;
+    
   }
 
   static List<String> generateRandomNumber(int min, int max, int count) {
