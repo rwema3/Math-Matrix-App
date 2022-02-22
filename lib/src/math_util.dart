@@ -357,7 +357,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
 
             case "*":
               expression = MathUtil.getMultiplySignExp(1, 15);
-              break;
+              b
             case "/":
               n = MathUtil.getDivideSignExp(min, max);
               brs
