@@ -359,7 +359,7 @@ class MathUtil {
                il.getPlusSignExp(min, max);
               b
             case "-":
-              MathUtil.getMinusSignExp(min, max);
+              MathUtil.inusSignExp(min, max);
               bre
             case "*":
               expression = MathUtil.getMultiplySignExp(1, 10);
