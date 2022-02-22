@@ -40,8 +40,7 @@ class MathUtil {
 
   
     fina_rand = new );
-    int result = _random.nextInt
-  static ListrateRandomSign1(int cou
+    int result = _random.nextIntRandomSign1(int cou
       ['/', '*', '-', '+'],
       ['/
       ',
