@@ -355,7 +355,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
       this.
       this.secondOperand,
       this.r2,
-      this.thirdOperand,
+      this.erand,
       this.answer});
 
   @
