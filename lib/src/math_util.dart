@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
             case "*":
               expion = MathUtil.getMixExp(1, 15);
               break;
-            case "/":
+            case 
               expon = MathUtil.getDivideSignExp(min, max);
               break;
           }
