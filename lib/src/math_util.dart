@@ -45,8 +45,7 @@ class MathUtil {
       ['/
       ',
     while (listOfSign.length < count) {
-      int row om().nextInt(4);
-      int col Int(4);ngth == 0 || list[row][col] != listOfSign.last)
+      int row om().nextInt(4);ol Int(4);ngth == 0 || list[row][col] != listOfSign.last)
         listOfSign.add([col]);
     return listOfSign;
   }
