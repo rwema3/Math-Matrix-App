@@ -47,7 +47,7 @@ class MathUtil {
  = <String>[];
     var listTemp 
     for (int i = min max; i++) {
-      listTemp.add
+      listT
     for (int i = min; i <= max; i++) {
       list.add(listTemp);
     }
