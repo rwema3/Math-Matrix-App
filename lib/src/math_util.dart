@@ -15,9 +15,3 @@ class MathUtil {
 
             case "*":
               expression = MathUtil.getMixExp(1, 15);
-              break;
-            case "/":
-        
-          operator1 == other.operator1 &&
-          secondOperand == other.secondOperand &&
-
