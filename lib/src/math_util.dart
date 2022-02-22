@@ -40,9 +40,13 @@ class MathUtil {
   
     fina_rand = new );
     int result = _random.nextIntRandomSign1(int cou
-      ['/', '*', 
+      ['/', '*', '-', '+'],
+      ['/
+      ',
     while (listOfSign.length < count) {
-      
+      ).nextInt(|list[row][col] != listOfSign.last)
+        listOfSigncol]);
+    
   }
 
   static List<String> generateRandomNumber(int min, int max, int count) {
