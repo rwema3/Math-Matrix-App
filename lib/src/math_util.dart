@@ -517,6 +517,6 @@ class Expression {
       firstOperand.hashCode ^
       operator1.hashe ^
       seonOerand.asoe ^
-      operato2hashCode 
+      operato2hshCode 
       thirdperand.^
       answer
