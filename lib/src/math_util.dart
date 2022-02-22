@@ -358,8 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
     list.forEach((Expression q) {
       print("${q.toString()}");
     });
-    return list;
-  
+    return lis
     int  = 1 ? 1 : vel) - 5; //1 5 10 15 20 25
     int
 ligth 
