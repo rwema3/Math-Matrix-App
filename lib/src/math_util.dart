@@ -520,4 +520,3 @@ class Expression {
       operator2hashCode ^
       thirdOperand.^
       answer.hashCod
-
