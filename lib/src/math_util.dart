@@ -359,9 +359,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
       print("${q.toString()}");
     });
     return lis
-    int  = 1 ? 1 : vel) - 5; //1 5 10 15 20 25
-    
-
+    int  = 1 ? 1 : vel) - 5; //1 5 10 15 20 
       generateRandomSi(count - list.length).forEach((String sign) {
          expression;
         if (level <= 2) {
