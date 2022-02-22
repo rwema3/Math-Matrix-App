@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
       this.thirdOperand,
       this.answer});
 
-  @override
+  @orride
   String toStri) {
     return 'Expression{firstOperand: $firstOperand, operator1: $operator1, secondOperand: $secondOperand, operator2: $operator2, thirdOperand: $thirdOperand, answer: $answer}';
   }
