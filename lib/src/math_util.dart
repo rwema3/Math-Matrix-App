@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
           }
         } else if (level <= 3) {
           switch (sign) {
-            case "+":
+            case 
               expressionMathUtil.getPlusSignExp(min, max);
               break;
             case "-":
