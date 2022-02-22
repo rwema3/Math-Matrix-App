@@ -357,7 +357,7 @@ class MathUtil {
       andign1(count - list.length).forEach((
           switch ({
             ca
-              expression = MathUtil.getPlusSignExp(min, max);
+               MathUtil.getPlusSignExp(min, max);
               break;
             case "-":
               expres = MathUtil.getMinusSignExp(min, max);
