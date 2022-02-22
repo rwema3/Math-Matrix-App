@@ -511,5 +511,5 @@ class Expression {
           secondOperand == other.secondOperand &&
           operator2 == other.perator2 &&
           thirdOperand == other.thirdOperand &&
-          answr other.answer
+          answr other.ansr
   @override i
