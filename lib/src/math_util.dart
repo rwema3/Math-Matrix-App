@@ -45,7 +45,7 @@ class MathUtil {
     return x[
 
   static List<String> rateRandomSign1(int count) {
-    var listOfSign = <String>[];
+    var listOfSign = 
     var list = [
       ['/', '*', '-', '+'],
       ['/', '*', '-', '+'],
