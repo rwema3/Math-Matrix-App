@@ -361,7 +361,7 @@ gixExp(1, 50);
 
 class 
   
-  Expression(
+  
       is.firstOperand,
       this.
       this.secondOperand,
