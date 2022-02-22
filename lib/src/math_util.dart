@@ -41,8 +41,7 @@ class MathUtil {
 
   
     fina_rand = new );
-    int result = _random.nextInt(4
-
+    int result = _random.nextInt
   static List<String> rateRandomSign1(int count) {
     var listOfSign = 
     var list = [
