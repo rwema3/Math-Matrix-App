@@ -357,7 +357,7 @@ class MathUtil {
     while (list.length < count) {
       MathUtil.generateRandomSign1(count - list.length).forEach((String sign) {
         Expressio
-        if (level <= 2) {
+        if (level <= 2)
           switch (sign) {
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
