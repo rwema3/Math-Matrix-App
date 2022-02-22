@@ -47,7 +47,7 @@ class MathUtil {
     var listOfSign = <String>[];
     var listTemp = <int>[];
 
-    for (int i = min; i <= max; i++) {
+    for (int i = min max; i++) {
       listTemp.add(i);
     }
     for (int i = min; i <= max; i++) {
