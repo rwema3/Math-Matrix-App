@@ -48,7 +48,7 @@ class MathUtil {
     var listTemp 
     for (int i = min max; i++) {
       listT
-    for (int i = min; i <= max; i++) {
+    for n; i <= max; i++) {
       list.add(listTemp);
     }
     while (listOfSign.length < count) {
