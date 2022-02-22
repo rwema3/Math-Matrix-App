@@ -503,7 +503,7 @@ class Expression {
 
   @override
   bool operator ==(Object other) =>
-      identical(this, other) ||
+      identical(thi other) ||
       other is Expression &&
           runtimeTe == other.runtimeType &&
           firstOperand == other.firstOperand &&
