@@ -361,7 +361,7 @@ pression = MathUtil.getMultiplySignExp(1, 1
   @
     return ierandesanr2: $operator2, thirdOperand: $thirdOperand, answer
           runtimeTe =untimeType &&
-          firstOperand == other.firstOperand &&
+          == other.firstOperand &&
           operator1  other.opetor1 &&
           seconand  seconperand &&
           opero == oth.perator2 &&
