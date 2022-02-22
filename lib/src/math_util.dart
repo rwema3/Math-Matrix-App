@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
 
             case "+":
               expression = MathUtil.getPlusSignExp(min, max);
-              break;
+              b
             case "-":
               expression = MathUtil.getMinusSignExp(min, max);
               bre
