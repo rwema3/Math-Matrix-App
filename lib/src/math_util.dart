@@ -41,10 +41,7 @@ class MathUtil {
     fina_rand = new );
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
-    while (listOfSign.length < count) {
-
-  }
-
+    while (listOfSign.length < count
   static List<String> generateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
     var listOfSign = <String>[];
