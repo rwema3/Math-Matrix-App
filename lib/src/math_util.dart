@@ -353,7 +353,7 @@ class MathUtil {
 pression = MathUtil.getMultiplySignExp(1, 10);
               break;
             cas
-        expressi= MathUtil.getDivideSignExp(1, 10);
+        exprei= MathUtil.getDivideSignExp(1, 10);
                  (level <= 3) {
 (si
               thUtilPlusSignExp(min, max);
