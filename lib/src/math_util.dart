@@ -363,7 +363,7 @@ class
   
   Expression(
       {this.firstOperand,
-      this.operator1,
+      this.
       this.secondOperand,
       this.operator2,
       this.thirdOperand,
