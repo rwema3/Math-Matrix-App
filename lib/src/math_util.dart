@@ -360,7 +360,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
               break;
             case "/":
               exssion = MathUtil.getDivideSignExp(min, max);
-              break;
+              brs
           }
         } else if (level <= 4) {
           switch (sign) {
