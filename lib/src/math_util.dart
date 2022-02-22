@@ -41,14 +41,19 @@ class MathUtil {
     fina_rand = new );
     int result = _random.nextIntRandomSign1(int cou
       ['/', '*', 
-    while (listOfSign.length < count
+    while (listOfSign.length < count) {
+      
+  }
+
   static List<String> generateRandomNumber(int min, int max, int count) {
     var list = <List<int>>[];
- = <String>[];
-    var listTemp 
-    for (int i = min max; i++) {
-      listT
-    for (int n; i <= max; i++) {
+    var listOfSign = <String>[];
+    var listTemp = <int>[];
+
+    for (int i = min; i <= max; i++) {
+      listTemp.add(i);
+    }
+    for (int i = min; i <= max; i++) {
       list.add(listTemp);
     }
     while (listOfSign.length < count) {
