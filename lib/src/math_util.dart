@@ -365,7 +365,7 @@ class
       {this.firstOperand,
       this.
       this.secondOperand,
-      this.operator2,
+      this.r2,
       this.thirdOperand,
       this.answer});
 
