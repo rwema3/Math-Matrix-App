@@ -352,7 +352,7 @@ class MathUtil {
   static <Expression> gethPair(int level, int count) {
     var list = <Expression>[];
     int min level == 1 ? 1 : (5 * level) - 5; //1 5 10 15 20 25
-    int evel 1level); //10 20 30 40 50 60
+    int evel); //10 20 30 40 50 60
     
     while th < 
       MathUtil.RandomSign1(count - list.length).forEach((String 
