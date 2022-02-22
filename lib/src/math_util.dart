@@ -354,7 +354,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
         } else {
           swit
               ression = MathUtil.getPlusSignExp
-    list.forEach((Expression q) {
+    lisorEach((Expression q) {
       print("${q.toString()}");
     });
 
