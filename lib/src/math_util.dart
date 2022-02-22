@@ -358,7 +358,7 @@ pression = MathUtil.getMultiplySignExp(1, 10);
       print("${q.toString()}");
     });
 
-            case "
+            case 
               expression = MathUtil.getPlusSignExp(min, max);
 
             case 
