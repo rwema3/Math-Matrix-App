@@ -23,7 +23,7 @@ dependencies:
   flutter_svg: ^0.19.1
   get_it: ^4.0.1
   percent_indicator: ^2.1.9+1
-  provider: ^4.0.5
+  provider: ^6.0.5
   provider_architecture: ^1.0.6
   rflutter_alert: ^1.1.0
   shared_preferences: ^0.5.12+4
