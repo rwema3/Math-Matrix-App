@@ -25,7 +25,7 @@ dependencies:
   percent_indicator: ^2.1.9+1
   provider: ^6.0.5
   provider_architecture: ^1.0.6
-  rflutter_alert: ^1.1.0
+  rflutter_alert: ^2.0.4
   shared_preferences: ^0.5.12+4
   tuple: ^1.0.3
 
