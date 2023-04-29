@@ -40,3 +40,14 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.deepPurple,
           primaryColorDark: Colors.deepPurple[700],
           primaryColorLight: Colors.deepPurple[300],
+          /*primaryColorDark: Color(0x673ab7),
+          primaryColorLight: Color(0x8561c5),*/
+          primarySwatch: Colors.yellow,
+          accentColor: Colors.deepOrange[300],
+          scaffoldBackgroundColor: Color(0xFF121212),
+          dialogBackgroundColor: Colors.blueGrey[900],
+          splashColor: Colors.grey,
+          highlightColor: Colors.white60,
+          dividerColor: Colors.grey[900],
+          applyElevationOverlayColor: true,
+          /*cardTheme: CardTheme(
