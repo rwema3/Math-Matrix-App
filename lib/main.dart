@@ -51,3 +51,12 @@ class MyApp extends StatelessWidget {
           dividerColor: Colors.grey[900],
           applyElevationOverlayColor: true,
           /*cardTheme: CardTheme(
+
+          ),*/
+          textTheme: TextTheme(
+            display4:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w300),
+            display3: TextStyle(
+                fontFamily: fontFamily,
+                fontWeight: FontWeight.w500,
+                color: Colors.white),
