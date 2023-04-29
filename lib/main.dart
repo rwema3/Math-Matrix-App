@@ -13,3 +13,7 @@ void main() {
   setupServiceLocator();
   runApp(MyApp());
 }
+
+setupServiceLocator() {
+  GetIt.I.registerLazySingleton(() => NavigationService());
+  GetIt.I.registerSingleton<DashboardViewModel>(DashboardViewModel());
