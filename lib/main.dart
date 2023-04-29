@@ -30,3 +30,13 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
+
+    return MaterialApp(
+      title: 'Math Matrix',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          backgroundColor: Color(0xFFaa0000),
+          brightness: Brightness.dark,
+          primaryColor: Colors.deepPurple,
+          primaryColorDark: Colors.deepPurple[700],
+          primaryColorLight: Colors.deepPurple[300],
