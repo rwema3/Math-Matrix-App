@@ -70,3 +70,13 @@ class MyApp extends StatelessWidget {
                 color: Colors.white),
             headline:
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
+            title:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
+            subhead:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
+            body2:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
+            body1:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
+            caption:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
