@@ -47,6 +47,10 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Color(0xFF121212),
           dialogBackgroundColor: Colors.blueGrey[900],
           splashColor: Colors.grey,
+          highlightColor: Colors.white60,
+          dividerColor: Colors.grey[900],
+          applyElevationOverlayColor: true,
+          /*cardTheme: CardTheme(
             button:
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
           )),
