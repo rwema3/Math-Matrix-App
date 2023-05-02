@@ -61,6 +61,9 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Colors.white),
             display2: TextStyle(
+                fontFamily: fontFamily,
+                fontWeight: FontWeight.w400,
+                color: Colors.white),
             
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
             body1:
