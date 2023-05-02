@@ -23,6 +23,18 @@ setupServiceLocator() {
 class MyApp extends StatelessWidget {
   final String fontFamily = "Montserrat";
 
+  @override
+  Widget build(BuildContext context) {
+//    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
+            button:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
+          )),
+      builder: (context, widget) => Navigator(
+        onGenerateRoute: (settings) => MaterialPageRoute(
+            builder: (context) => DialogManager(
+                  child: widget,
+                )),
+      ),
       navigatorKey: GetIt.I<NavigationService>().navigatorKey,
       onGenerateRoute: generateRoute,
       initialRoute: KeyUtil.Dashboard,
