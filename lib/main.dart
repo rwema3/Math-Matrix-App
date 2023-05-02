@@ -51,6 +51,10 @@ class MyApp extends StatelessWidget {
           dividerColor: Colors.grey[900],
           applyElevationOverlayColor: true,
           /*cardTheme: CardTheme(
+            caption:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
+            subtitle:
+                TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
             button:
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
           )),
