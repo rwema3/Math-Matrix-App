@@ -52,6 +52,10 @@ class MyApp extends StatelessWidget {
           applyElevationOverlayColor: true,
           /*cardTheme: CardTheme(
 
+          ),*/
+          textTheme: TextTheme(
+            display4:
+            
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
             body1:
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w400),
