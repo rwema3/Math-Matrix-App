@@ -33,3 +33,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Math Matrix',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          backgroundColor: Color(0xFFaa0000),
+          brightness: Brightness.dark,
