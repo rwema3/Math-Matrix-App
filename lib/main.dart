@@ -85,3 +85,16 @@ class MyApp extends StatelessWidget {
             button:
                 TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.w500),
           )),
+      builder: (context, widget) => Navigator(
+        onGenerateRoute: (settings) => MaterialPageRoute(
+            builder: (context) => DialogManager(
+                  child: widget,
+                )),
+      ),
+      navigatorKey: GetIt.I<NavigationService>().navigatorKey,
+      onGenerateRoute: generateRoute,
+      initialRoute: KeyUtil.Dashboard,
+      home: DashboardView(),
+    );
+  }
+}
