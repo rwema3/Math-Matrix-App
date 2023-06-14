@@ -31,3 +31,5 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitDown,
     ]);
 
+    return MaterialApp(
+      title: 'Math Matrix',
