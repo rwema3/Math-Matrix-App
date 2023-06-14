@@ -18,3 +18,7 @@ setupServiceLocator() {
   GetIt.I.registerLazySingleton(() => NavigationService());
   GetIt.I.registerSingleton<DashboardViewModel>(DashboardViewModel());
   GetIt.I.registerLazySingleton(() => DialogService());
+}
+
+class MyApp extends StatelessWidget {
+  final String fontFamily = "Montserrat";
