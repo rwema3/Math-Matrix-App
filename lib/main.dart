@@ -22,3 +22,7 @@ setupServiceLocator() {
 
 class MyApp extends StatelessWidget {
   final String fontFamily = "Montserrat";
+
+  @override
+  Widget build(BuildContext context) {
+//    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
