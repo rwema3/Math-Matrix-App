@@ -1,10 +1,10 @@
 class QuickCalculation {
-  String question;
-  String userAnswer;
-  int answer;
+  late String question;
+  late String userAnswer;
+  late int answer;
 
   QuickCalculation(this.question, this.answer) {
-    this.userAnswer = "";
+    userAnswer = "";
   }
 
   @override
@@ -15,9 +15,9 @@ class QuickCalculation {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is QuickCalculation &&
-          runtimeType == other.runtimeType &&
-          question == other.question;
+          other is QuickCalculation &&
+              runtimeType == other.runtimeType &&
+              question == other.question;
 
   @override
   int get hashCode => question.hashCode;

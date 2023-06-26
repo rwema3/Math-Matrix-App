@@ -1,10 +1,10 @@
 class MagicTriangle {
-  bool is3x3;
+  late bool is3x3;
 
-  List<MagicTriangleGrid> listGrid;
-  List<MagicTriangleInput> listTriangle;
-  int availableDigit;
-  int answer;
+  late List<MagicTriangleGrid> listGrid;
+  late List<MagicTriangleInput> listTriangle;
+  late int availableDigit;
+  late int answer;
 
   MagicTriangle(this.listGrid, this.listTriangle, this.answer) {
     this.availableDigit = listGrid.length;
@@ -54,15 +54,15 @@ class MagicTriangle {
 }
 
 class MagicTriangleGrid {
-  String value;
-  bool isVisible;
+  late String value;
+  late bool isVisible;
 
   MagicTriangleGrid(this.value, this.isVisible);
 }
 
 class MagicTriangleInput {
-  bool isActive;
-  String value;
+  late bool isActive;
+  late String value;
 
   MagicTriangleInput(this.isActive, this.value);
 }

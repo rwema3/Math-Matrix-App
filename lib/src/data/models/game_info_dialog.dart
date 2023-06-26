@@ -1,10 +1,13 @@
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 
 class GameInfoDialog {
-  String title;
-  String image;
-  String dec;
+  final String title;
+  final String image;
+  final String dec;
 
-  GameInfoDialog(
-      {@required this.title, @required this.image, @required this.dec});
+  GameInfoDialog({
+    required this.title,
+    required this.image,
+    required this.dec,
+  });
 }

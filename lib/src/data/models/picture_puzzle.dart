@@ -1,6 +1,6 @@
 class PicturePuzzle {
-  List<PicturePuzzleShapeList> list;
-  int answer;
+  late List<PicturePuzzleShapeList> list;
+  late int answer;
 
   PicturePuzzle(this.list, this.answer);
 
@@ -11,7 +11,7 @@ class PicturePuzzle {
 }
 
 class PicturePuzzleShapeList {
-  List<PicturePuzzleShape> shapeList;
+  late List<PicturePuzzleShape> shapeList;
 
   PicturePuzzleShapeList(this.shapeList);
 
@@ -22,12 +22,17 @@ class PicturePuzzleShapeList {
 }
 
 class PicturePuzzleShape {
-  bool isSign;
-  bool isAnswer;
-  PicturePuzzleShapeType picturePuzzleShapeType;
-  String text;
+  late bool isSign;
+  late bool isAnswer;
+  late PicturePuzzleShapeType picturePuzzleShapeType;
+  late String text;
 
-  PicturePuzzleShape({this.isSign, this.picturePuzzleShapeType, this.isAnswer,this.text});
+  PicturePuzzleShape({
+    required this.isSign,
+    required this.picturePuzzleShapeType,
+    required this.isAnswer,
+    required this.text,
+  });
 
   @override
   String toString() {
@@ -36,12 +41,12 @@ class PicturePuzzleShape {
 }
 
 class PicturePuzzleData {
-  PicturePuzzleShapeType picturePuzzleShapeType1;
-  String sign1;
-  PicturePuzzleShapeType picturePuzzleShapeType2;
-  String sign2;
-  PicturePuzzleShapeType picturePuzzleShapeType3;
-  String text;
+  late PicturePuzzleShapeType picturePuzzleShapeType1;
+  late String sign1;
+  late PicturePuzzleShapeType picturePuzzleShapeType2;
+  late String sign2;
+  late PicturePuzzleShapeType picturePuzzleShapeType3;
+  late String text;
 
   PicturePuzzleData(
       this.picturePuzzleShapeType1,
@@ -49,14 +54,13 @@ class PicturePuzzleData {
       this.picturePuzzleShapeType2,
       this.sign2,
       this.picturePuzzleShapeType3,
-      this.text);
+      this.text,
+      );
 
   @override
   String toString() {
     return 'PicturePuzzleData{picturePuzzleShapeType1: $picturePuzzleShapeType1, sign1: $sign1, picturePuzzleShapeType2: $picturePuzzleShapeType2, sign2: $sign2, picturePuzzleShapeType3: $picturePuzzleShapeType3, text: $text}';
   }
-
-
 }
 
 enum PicturePuzzleShapeType { CIRCLE, SQUARE, TRIANGLE }

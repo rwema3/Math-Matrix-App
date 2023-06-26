@@ -1,8 +1,8 @@
 class MentalArithmetic {
-  String currentQuestion;
-  List<String> questionList;
-  int answer;
-  int answerLength;
+  late String currentQuestion;
+  late List<String> questionList;
+  late int answer;
+  late int answerLength;
 
   MentalArithmetic(this.questionList, this.answer) {
     this.currentQuestion = questionList[0];
@@ -17,9 +17,9 @@ class MentalArithmetic {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is MentalArithmetic &&
-          runtimeType == other.runtimeType &&
-          questionList == other.questionList;
+          other is MentalArithmetic &&
+              runtimeType == other.runtimeType &&
+              questionList == other.questionList;
 
   @override
   int get hashCode => questionList.hashCode;
