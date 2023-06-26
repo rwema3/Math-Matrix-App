@@ -2,17 +2,17 @@ import 'package:mathgame/src/data/models/mental_arithmetic.dart';
 import 'package:mathgame/src/utility/math_util.dart';
 
 class MentalArithmeticRepository {
-  static List<int> listHasCode = List();
+  static List<int> listHasCode = [];
 
-  static getMentalArithmeticDataList(int level) {
+  static List<MentalArithmetic> getMentalArithmeticDataList(int level) {
     if (level == 1) {
       listHasCode.clear();
     }
 
-    List<MentalArithmetic> list = List();
+    List<MentalArithmetic> list = [];
 
     while (list.length < 5) {
-      Expression expression = MathUtil.getMentalExp(level);
+      Expression? expression = MathUtil.getMentalExp(level);
       if (expression != null) {
         MentalArithmetic mentalArithmeticQandS = MentalArithmetic([
           expression.firstOperand,

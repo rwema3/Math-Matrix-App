@@ -2,9 +2,9 @@ import 'package:mathgame/src/data/models/math_pairs.dart';
 import 'package:mathgame/src/utility/math_util.dart';
 
 class MathPairsRepository {
-  static List<int> listHasCode = List();
+  static List<int> listHasCode = [];
 
-  static getMathPairsDataList(int level) {
+  static List<MathPairs> getMathPairsDataList(int level) {
     if (level == 1) {
       listHasCode.clear();
     }
@@ -13,7 +13,7 @@ class MathPairsRepository {
     int totalPairs = level <= 2 ? 12 : 18;
     print("level $level   total pairs $totalPairs");
 
-    List<Pair> list = List();
+    List<Pair> list = [];
 
     while (list.length < totalPairs) {
       MathUtil.getMathPair(level, (totalPairs ~/ 2) - (list.length ~/ 2))
@@ -35,7 +35,7 @@ class MathPairsRepository {
     }
 
     list.shuffle();
-    return <MathPairs>[MathPairs(list, totalPairs)];
+    return [MathPairs(list, totalPairs)];
   }
 }
 

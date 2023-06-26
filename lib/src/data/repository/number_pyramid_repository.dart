@@ -5,8 +5,8 @@ import 'package:mathgame/src/utility/math_util.dart';
 import 'package:tuple/tuple.dart';
 
 class NumberPyramidRepository {
-  static List<NumPyramidCellModel> singlePyramidList = new List();
-  static int counter;
+  static List<NumPyramidCellModel> singlePyramidList = [];
+  static int counter = 0;
   static List<List<int>> hintLists = [
     [0, 6, 9, 10, 17, 20, 26],
     [1, 5, 10, 13, 19, 21, 22, 25],
@@ -39,19 +39,18 @@ class NumberPyramidRepository {
   ];
 
   static List<NumberPyramid> getPyramidDataList(int level) {
-    List<NumberPyramid> pyramidsList = new List();
+    List<NumberPyramid> pyramidsList = [];
 
     for (int i = 0; i < 20; i++) {
       var singlePyramidResult = generateSinglePyramidValues();
-      pyramidsList
-          .add(NumberPyramid(i, singlePyramidResult.item1, singlePyramidResult.item2 + 1));
+      pyramidsList.add(NumberPyramid(i, singlePyramidResult.item1, singlePyramidResult.item2 + 1));
     }
 
     return pyramidsList;
   }
 
   static Tuple2<List<NumPyramidCellModel>, int> generateSinglePyramidValues() {
-    singlePyramidList = new List();
+    singlePyramidList = [];
     counter = 1;
     int min = 1;
     int max = 8;
@@ -62,7 +61,7 @@ class NumberPyramidRepository {
     generateUpperLineOfPyramid(baseLineList,
         counter); // generating upper line of pyramid by looping one by one
 
-    final _random = new Random();
+    final _random = Random();
     var selectedHintList = hintLists[_random.nextInt(hintLists.length)];
 
     for (int i = 0; i < selectedHintList.length; i++) {
@@ -70,7 +69,7 @@ class NumberPyramidRepository {
       singlePyramidList[selectedHintList[i]].isHint = true;
     }
 
-    return new Tuple2(singlePyramidList, (27- selectedHintList.length));
+    return Tuple2(singlePyramidList, (27 - selectedHintList.length));
   }
 
   static generateUpperLineOfPyramid(
@@ -83,7 +82,7 @@ class NumberPyramidRepository {
     if (loopTime == 0) {
       return;
     }
-    List<NumPyramidCellModel> tempList = new List();
+    List<NumPyramidCellModel> tempList = [];
     for (int k = 0; k < list.length - 1; k++) {
       int sum = list[k].numberOnCell + list[k + 1].numberOnCell;
       singlePyramidList.add(NumPyramidCellModel(
@@ -97,7 +96,7 @@ class NumberPyramidRepository {
   }
 
   static List<NumPyramidCellModel> generateBaseLineOfPyramid(int min, int max) {
-    List<NumPyramidCellModel> cellList = new List();
+    List<NumPyramidCellModel> cellList = [];
     cellList.clear();
     for (int i = 0; i < 7; i++) {
       int randomNum = MathUtil.generateRandomAnswer(min, max);
@@ -106,5 +105,12 @@ class NumberPyramidRepository {
       counter++;
     }
     return cellList;
+  }
+}
+
+void main() {
+  for (int i = 1; i < 10; i++) {
+    print("**********$i***********");
+    NumberPyramidRepository.getPyramidDataList(i);
   }
 }
