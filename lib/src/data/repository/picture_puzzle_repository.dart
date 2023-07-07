@@ -10,7 +10,7 @@ class PicturePuzzleRepository {
     }
 
     List<PicturePuzzle> list = List();
-    
+
     while (list.length < 5) {
       List<PicturePuzzleShapeList> puzzleList = List();
       List<PicturePuzzleData> picturePuzzleDataList =
