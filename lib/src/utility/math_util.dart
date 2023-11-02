@@ -159,4 +159,13 @@ class MathUtil {
         break;
       case "-":
         expression = MathUtil.getMinusSignExp(min, max);
+        break;
+      case "*":
+        expression = MathUtil.getMultiplySignExp(1, 15);
+        break;
+      case "/":
+        expression = MathUtil.getDivideSignExp(min, max);
+        break;
+    }
+    if (expression != null) {
  
