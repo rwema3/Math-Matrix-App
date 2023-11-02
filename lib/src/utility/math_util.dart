@@ -123,5 +123,9 @@ class MathUtil {
       for (int j = min; j <= max; j++) {
         if (i != 1 && j != 1 && j != i && j % i == 0) {
           listTemp.add({j.toString(): i.toString()});
+        }
+      }
+    }
+    listTemp.shuffle();
     if (listTemp.length > 0) {
  
