@@ -32,3 +32,13 @@ class MathUtil {
         return 3;
     }
   }
+
+  static int generateRandomAnswer(int min, int max) {
+    final _random = new Random();
+    int result = min + _random.nextInt(max - min);
+    return result;
+  }
+
+  static String generateRandomSign() {
+    var x = ['/', '*', '-', '+'];
+    final _random = new Random();
