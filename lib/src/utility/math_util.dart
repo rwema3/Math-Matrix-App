@@ -173,4 +173,18 @@ class MathUtil {
           if (firstSign != "")
             finalExpression = Expression(
                 firstOperand: expression.firstOperand,
+                operator1: expression.operator1,
+                secondOperand: expression.secondOperand,
+                operator2: "+",
+                thirdOperand: operand.toString(),
+                answer: expression.answer + operand);
+          else
+            finalExpression = Expression(
+                firstOperand: operand.toString(),
+                operator1: "+",
+                secondOperand: expression.firstOperand,
+                operator2: expression.operator1,
+                thirdOperand: expression.secondOperand,
+                answer: operand + expression.answer);
+          break;
  
