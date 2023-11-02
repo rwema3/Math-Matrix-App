@@ -60,3 +60,13 @@ class MathUtil {
       int col = Random().nextInt(4);
       if (listOfSign.length == 0 || list[row][col] != listOfSign.last)
         listOfSign.add(list[row][col]);
+    }
+    return listOfSign;
+  }
+
+  static List<String> generateRandomNumber(int min, int max, int count) {
+    var list = <List<int>>[];
+    var listOfSign = <String>[];
+    var listTemp = <int>[];
+
+    for (int i = min; i <= max; i++) {
