@@ -297,3 +297,19 @@ class MathUtil {
         break;
       case "/":
         expression = MathUtil.getDivideSignExp(min, max);
+        break;
+    }
+    if (expression != null) {
+      switch (signList[1]) {
+        case "+":
+          finalExpression = Expression(
+              firstOperand: expression.firstOperand,
+              operator1: expression.operator1,
+              secondOperand: expression.secondOperand,
+              operator2: signList[1],
+              thirdOperand: operand.toString(),
+              answer: operand + expression.answer);
+          break;
+        case "-":
+          finalExpression = Expression(
+              firstOperand: expression.firstOperand,
