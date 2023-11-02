@@ -19,3 +19,16 @@ class MathUtil {
     return ["+", "-", "*", "/"].contains(sign);
   }
 
+  // ignore: missing_return
+  static int getPrecedence(String sign) {
+    switch (sign) {
+      case "+":
+        return 1;
+      case "-":
+        return 1;
+      case "*":
+        return 2;
+      case "/":
+        return 3;
+    }
+  }
