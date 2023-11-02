@@ -168,4 +168,9 @@ class MathUtil {
         break;
     }
     if (expression != null) {
+      switch (firstSign != "" ? signList[1] : signList[0]) {
+        case "+":
+          if (firstSign != "")
+            finalExpression = Expression(
+                firstOperand: expression.firstOperand,
  
