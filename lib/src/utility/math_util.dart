@@ -70,3 +70,23 @@ class MathUtil {
     var listTemp = <int>[];
 
     for (int i = min; i <= max; i++) {
+      listTemp.add(i);
+    }
+    for (int i = min; i <= max; i++) {
+      list.add(listTemp);
+    }
+    while (listOfSign.length < count) {
+      int row = Random().nextInt(max - min);
+      int col = Random().nextInt(max - min);
+      if (listOfSign.length == 0 ||
+          list[row][col].toString() != listOfSign.last)
+        listOfSign.add(list[row][col].toString());
+    }
+    return listOfSign;
+  }
+
+  static Expression getPlusSignExp(int min, int max) {
+    var x = MathUtil.generateRandomNumber(min, max, 2);
+    return Expression(
+        firstOperand: x[0],
+        operator1: "+",
