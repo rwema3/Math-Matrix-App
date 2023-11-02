@@ -387,3 +387,17 @@ class MathUtil {
               expression = MathUtil.getDivideSignExp(1, 15);
               break;
           }
+        } else {
+          switch (sign) {
+            case "+":
+              expression = MathUtil.getPlusSignExp(min, max);
+              break;
+            case "-":
+              expression = MathUtil.getMinusSignExp(min, max);
+              break;
+            case "*":
+              expression = MathUtil.getMultiplySignExp(5, 30);
+              break;
+            case "/":
+              expression = MathUtil.getDivideSignExp(5, 30);
+              break;
