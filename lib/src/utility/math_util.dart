@@ -90,3 +90,29 @@ class MathUtil {
     return Expression(
         firstOperand: x[0],
         operator1: "+",
+        secondOperand: x[1],
+        answer: int.tryParse(x[0]) + int.tryParse(x[1]));
+  }
+
+  static Expression getMinusSignExp(int min, int max) {
+    var x1 = MathUtil.generateRandomNumber(max ~/ 2, max, 1);
+    var x2 = MathUtil.generateRandomNumber(min, max, 1);
+    while (int.tryParse(x2[0]) > int.tryParse(x1[0])) {
+      x2 = MathUtil.generateRandomNumber(min, max, 1);
+    }
+    return Expression(
+        firstOperand: x1[0],
+        operator1: "-",
+        secondOperand: x2[0],
+        answer: int.tryParse(x1[0]) - int.tryParse(x2[0]));
+  }
+
+  static Expression getMultiplySignExp(int min, int max) {
+    var x = MathUtil.generateRandomNumber(min, max, 2);
+
+    return Expression(
+        firstOperand: x[0],
+        operator1: "*",
+        secondOperand: x[1],
+        answer: int.tryParse(x[0]) * int.tryParse(x[1]));
+  }
