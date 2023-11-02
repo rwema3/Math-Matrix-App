@@ -401,3 +401,9 @@ class MathUtil {
             case "/":
               expression = MathUtil.getDivideSignExp(5, 30);
               break;
+          }
+        }
+        if (expression != null && !list.contains(expression)) {
+          list.add(expression);
+        }
+      });
