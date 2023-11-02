@@ -42,3 +42,21 @@ class MathUtil {
   static String generateRandomSign() {
     var x = ['/', '*', '-', '+'];
     final _random = new Random();
+    int result = _random.nextInt(4);
+    return x[result];
+  }
+
+  static List<String> generateRandomSign1(int count) {
+    var listOfSign = <String>[];
+    var list = [
+      ['/', '*', '-', '+'],
+      ['/', '*', '-', '+'],
+      ['/', '*', '-', '+'],
+      ['/', '*', '-', '+']
+    ];
+
+    while (listOfSign.length < count) {
+      int row = Random().nextInt(4);
+      int col = Random().nextInt(4);
+      if (listOfSign.length == 0 || list[row][col] != listOfSign.last)
+        listOfSign.add(list[row][col]);
