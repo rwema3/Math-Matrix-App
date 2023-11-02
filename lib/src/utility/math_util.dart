@@ -10,3 +10,12 @@ class MathUtil {
         return x1 - x3;
       case "*":
         return x1 * x3;
+      case "/":
+        return x1 ~/ x3;
+    }
+  }
+
+  static bool isOperator(String sign) {
+    return ["+", "-", "*", "/"].contains(sign);
+  }
+
