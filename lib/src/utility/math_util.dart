@@ -359,3 +359,8 @@ class MathUtil {
         Expression expression;
         if (level <= 2) {
           switch (sign) {
+            case "+":
+              expression = MathUtil.getPlusSignExp(min, max);
+              break;
+            case "-":
+              expression = MathUtil.getMinusSignExp(min, max);
