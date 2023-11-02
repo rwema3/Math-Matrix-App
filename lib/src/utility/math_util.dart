@@ -332,3 +332,19 @@ class MathUtil {
         case "/":
           if (expression.answer % operand != 0) {
             finalExpression = null;
+          } else {
+            finalExpression = Expression(
+                firstOperand: expression.firstOperand,
+                operator1: expression.operator1,
+                secondOperand: expression.secondOperand,
+                operator2: signList[1],
+                thirdOperand: operand.toString(),
+                answer: expression.answer ~/ operand);
+          }
+          break;
+      }
+    } else {
+      finalExpression = expression;
+    }
+    return finalExpression;
+  }
