@@ -407,3 +407,12 @@ class MathUtil {
           list.add(expression);
         }
       });
+    }
+    list.forEach((Expression q) {
+      print("${q.toString()}");
+    });
+    return list;
+  }
+
+  static List<Expression> generate(int level, int count) {
+    var list = <Expression>[];
