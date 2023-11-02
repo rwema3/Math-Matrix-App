@@ -229,4 +229,15 @@ class MathUtil {
                 operator1: "*",
                 secondOperand: expression.firstOperand,
                 operator2: expression.operator1,
- 
+                thirdOperand: expression.secondOperand,
+                answer: operand * expression.answer);
+
+          break;
+        case "/":
+          if (firstSign != "") {
+            if (expression.answer % operand == 0) {
+              finalExpression = null;
+            } else {
+              finalExpression = Expression(
+                  firstOperand: expression.firstOperand,
+s
