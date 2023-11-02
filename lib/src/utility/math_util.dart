@@ -287,3 +287,13 @@ class MathUtil {
 
     switch (signList[0]) {
       case "+":
+        expression = MathUtil.getPlusSignExp(min, max);
+        break;
+      case "-":
+        expression = MathUtil.getMinusSignExp(min, max);
+        break;
+      case "*":
+        expression = MathUtil.getMultiplySignExp(1, 15);
+        break;
+      case "/":
+        expression = MathUtil.getDivideSignExp(min, max);
