@@ -22,7 +22,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.5
   flutter_svg: ^2.0.9
-  get_it: ^7.6.0
+  get_it: ^7.6.4
   percent_indicator: ^4.2.3
   provider: ^6.0.5
   rflutter_alert: ^2.0.7
